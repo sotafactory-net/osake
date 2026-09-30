@@ -16,7 +16,7 @@
   ];
   var RATING_MINS = [0, 1, 2, 3, 4];
   var PAGE_SIZE = 10;
-  var EC_TITLES = { Amazon: "Amazon", Rakuten: "Rakuten", Yahoo: "Yahoo Shopping" };
+  var EC_TITLES = { Amazon: "Amazon", Rakuten: "Rakuten", Yahoo: "Yahoo" };
 
   // 日英の文言テーブル。
   var I18N = {
