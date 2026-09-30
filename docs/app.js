@@ -257,7 +257,7 @@
   }
 
   // ---- ダイアログ ----
-  var dialogState = { photos: [], photoIndex: 0, id: null };
+  var dialogState = { photos: [], photoIndex: 0, id: null, items: [], itemIndex: 0 };
 
   function bindDialog() {
     document.getElementById("dialog-close").addEventListener("click", closeDialog);
@@ -272,6 +272,10 @@
     var content = document.getElementById("dialog-content");
     overlay.hidden = false;
     content.innerHTML = "<div class='status'>読み込み中...</div>";
+
+    // 前後移動のため、現在のリストと位置を保持する。
+    dialogState.items = items || [];
+    dialogState.itemIndex = (typeof index === "number") ? index : 0;
 
     fetchInfo(listItem.id)
       .then(function (info) {
@@ -404,7 +408,20 @@
     var ec = buildEc(r.ecItems);
     if (ec) frag.appendChild(ec);
 
+    // 写真より下の領域を左右スワイプすると、リストの前後の商品へ移動する。
+    // 写真エリア(pw)にはスワイプが付かないので、写真の写真送りと競合しない。
+    attachSwipe(detail, moveItem);
+    attachSwipe(catRow, moveItem);
+
     return frag;
+  }
+
+  // ダイアログをリストの前後アイテムへ切り替える。dir=+1 次、-1 前。端では何もしない。
+  function moveItem(dir) {
+    var items = dialogState.items || [];
+    var n = dialogState.itemIndex + dir;
+    if (n < 0 || n >= items.length) return;
+    openDialog(items[n], items, n);
   }
 
   // 要素に横スワイプ検出を付ける。左スワイプ=次(+1)、右スワイプ=前(-1)。
