@@ -1,0 +1,26 @@
+{
+    "id": "f99ffd3d-39f7-4bbd-b087-7a0752e7719c",
+    "brand": "4326342435624",
+    "rating": 0.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Wine",
+    "subCategory": "赤",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "f99ffd3d-39f7-4bbd-b087-7a0752e7719c_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T00:46:08Z",
+    "updatedAt": "2026-09-28T16:22:46Z",
+    "deleted": false,
+    "deletedAt": ""
+}
