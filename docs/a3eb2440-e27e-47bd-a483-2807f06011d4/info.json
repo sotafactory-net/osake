@@ -1,0 +1,26 @@
+{
+    "id": "a3eb2440-e27e-47bd-a483-2807f06011d4",
+    "brand": "アマラン",
+    "rating": 0.0,
+    "date": "2026-09-28",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "a3eb2440-e27e-47bd-a483-2807f06011d4_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-28T12:34:45Z",
+    "updatedAt": "2026-09-28T12:34:45Z",
+    "deleted": false,
+    "deletedAt": ""
+}
