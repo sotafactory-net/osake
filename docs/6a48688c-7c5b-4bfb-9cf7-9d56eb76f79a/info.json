@@ -1,0 +1,40 @@
+{
+    "id": "6a48688c-7c5b-4bfb-9cf7-9d56eb76f79a",
+    "brand": "コカ・コーラ ゼロ 1.5L 1箱（6本入）",
+    "rating": 3.0,
+    "date": "2026-09-29",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Wine",
+    "subCategory": "赤",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "6a48688c-7c5b-4bfb-9cf7-9d56eb76f79a_0.jpg",
+        "6a48688c-7c5b-4bfb-9cf7-9d56eb76f79a_1.jpg"
+    ],
+    "janCode": "4902102141123",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 2340,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r0guo.euhkm125.g00r0guo.euhkn044/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fchugokuoroshi%2F10007669%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fchugokuoroshi%2Fi%2F10008416%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/chugokuoroshi/cabinet/08507057/colazero-1500-1.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1585,
+            "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/u222561/",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/rd-lohaco_u222561"
+        }
+    ],
+    "createdAt": "2026-09-28T15:12:14Z",
+    "updatedAt": "2026-09-29T13:26:17Z",
+    "deleted": false,
+    "deletedAt": ""
+}
