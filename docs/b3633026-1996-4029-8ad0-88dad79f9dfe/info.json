@@ -1,0 +1,37 @@
+{
+    "id": "b3633026-1996-4029-8ad0-88dad79f9dfe",
+    "brand": "久保田 スパークリング",
+    "rating": 0.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米吟醸",
+    "origin": "",
+    "alcoholPercent": 13.0,
+    "volumeMl": 300,
+    "images": [],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 9636,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00quiio.euhkm091.g00quiio.euhknc87/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsake-asanoya%2Fkubota003-spakring-720-6%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsake-asanoya%2Fi%2F10000905%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sake-asanoya/cabinet/06615075/sparkling-6.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1606,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmimasuya%2Fkubota1906.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/mimasuya_kubota1906"
+        }
+    ],
+    "createdAt": "2026-09-27T00:46:13Z",
+    "updatedAt": "2026-09-29T22:19:37Z",
+    "deleted": false,
+    "deletedAt": ""
+}
