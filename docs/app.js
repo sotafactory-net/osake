@@ -356,14 +356,19 @@
     frag.appendChild(box("d-box", r.place || ""));
     frag.appendChild(box("d-box d-comment", r.comment || ""));
 
+    // 上段: カテゴリ / サブカテゴリ（横2列、見出し文字なし）
+    var catRow = document.createElement("div");
+    catRow.className = "d-row";
+    catRow.appendChild(box("d-box", CATEGORY_LABELS[r.category] || "その他"));
+    catRow.appendChild(box("d-box", r.subCategory || ""));
+    frag.appendChild(catRow);
+
+    // 中段: 左（フルーティ/甘味度/度数/容量）＋ 右（Position 正方形）
     var detail = document.createElement("div");
     detail.className = "d-detail";
 
     var left = document.createElement("div");
     left.className = "d-detail-left";
-    // カテゴリ・サブカテゴリは見出し文字なしで値のみ表示。
-    left.appendChild(box("d-box", CATEGORY_LABELS[r.category] || "その他"));
-    left.appendChild(box("d-box", r.subCategory || ""));
     left.appendChild(sliderRow("フルーティ", num(r.fruity), -5, 5));
     left.appendChild(sliderRow("甘味度", num(r.sweetness), -5, 5));
     left.appendChild(box("d-box", "度数: " + fmtNum(r.alcoholPercent) + " %"));
