@@ -1,0 +1,26 @@
+{
+    "id": "ff5af2f2-05c6-449a-bc82-57c228e3760a",
+    "brand": "TTTT",
+    "rating": 0.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": -0.5525758266448975,
+    "richnessLightness": 0.23535549640655518,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "ff5af2f2-05c6-449a-bc82-57c228e3760a.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T12:04:19Z",
+    "updatedAt": "2026-09-27T12:04:19Z",
+    "deleted": false,
+    "deletedAt": ""
+}
