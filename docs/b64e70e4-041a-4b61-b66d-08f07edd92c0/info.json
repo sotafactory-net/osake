@@ -1,0 +1,46 @@
+{
+    "id": "b64e70e4-041a-4b61-b66d-08f07edd92c0",
+    "brand": "川越",
+    "rating": 3.0,
+    "date": "2026-09-28",
+    "sweetnessDryness": -0.15481418371200562,
+    "richnessLightness": 0.15811336040496826,
+    "fruity": -2,
+    "sweetness": 3,
+    "place": "川越のお酒",
+    "comment": "フルーツ\nキウイ",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "b64e70e4-041a-4b61-b66d-08f07edd92c0_0.jpg",
+        "b64e70e4-041a-4b61-b66d-08f07edd92c0_1.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 3550,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tdy4o.euhkm64b.g00tdy4o.euhkn454/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffirst19782012%2F2001927%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffirst19782012%2Fi%2F10020338%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/first19782012/cabinet/item/item_shochu/item_shochu_2/2001927.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 3680,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fizumiya-kurume%2F300972.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/izumiya-kurume_300972"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e5%b7%9d%e8%b6%8a",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-09-27T23:38:18Z",
+    "updatedAt": "2026-09-29T13:52:40Z",
+    "deleted": false,
+    "deletedAt": ""
+}
