@@ -1,0 +1,28 @@
+{
+    "id": "30724e51-d4b0-45e7-a892-1ce45de4d1c2",
+    "brand": "複数枚",
+    "rating": 0.0,
+    "date": "2026-09-28",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Whisky",
+    "subCategory": "ブレンデッド",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "30724e51-d4b0-45e7-a892-1ce45de4d1c2_0.jpg",
+        "30724e51-d4b0-45e7-a892-1ce45de4d1c2_1.jpg",
+        "30724e51-d4b0-45e7-a892-1ce45de4d1c2_2.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-28T12:26:55Z",
+    "updatedAt": "2026-09-29T13:26:37Z",
+    "deleted": false,
+    "deletedAt": ""
+}
