@@ -1,0 +1,26 @@
+{
+    "id": "c24eb6ef-b969-4b9a-9177-885be2522c10",
+    "brand": "猫ー",
+    "rating": 0.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "c24eb6ef-b969-4b9a-9177-885be2522c10.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T11:17:39Z",
+    "updatedAt": "2026-09-27T11:26:53Z",
+    "deleted": false,
+    "deletedAt": ""
+}
