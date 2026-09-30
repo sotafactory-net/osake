@@ -41,14 +41,19 @@ body {
 /* ツールバー */
 .toolbar {
   display: flex;
+  flex-direction: column;
   gap: 8px;
   padding: 10px;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
-  flex-wrap: wrap;
   position: sticky;
   top: 0;
   z-index: 10;
+}
+.toolbar-row {
+  display: flex;
+  gap: 8px;
+  width: 100%;
 }
 .dropdown {
   flex: 1 1 auto;
@@ -60,11 +65,11 @@ body {
   color: var(--text);
   font-size: 14px;
 }
-/* 言語プルダウン（EN/JP）は幅を小さく */
+/* 言語プルダウン（EN/JP）は幅を小さく固定 */
 .dropdown-lang {
   flex: 0 0 auto;
-  min-width: 60px;
-  width: 64px;
+  min-width: 64px;
+  width: 72px;
 }
 
 main {
