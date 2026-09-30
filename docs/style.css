@@ -97,15 +97,14 @@ main {
 .map {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 1 / 1;      /* 日本酒モードと同じ正方形にして高さを揃える */
+  max-width: 440px;
+  margin: 0 auto;
   border: 1px solid var(--border);
   background: var(--bg);
 }
-/* 日本酒モード: 4象限画像を背景に敷き、正方形にする。軸ラベルは画像内にあるため隠す */
+/* 日本酒モード: 4象限画像を背景に敷く。軸ラベルは画像内にあるため隠す */
 .map.sake-mode {
-  aspect-ratio: 1 / 1;
-  max-width: 440px;
-  margin: 0 auto;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
