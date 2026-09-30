@@ -1,0 +1,26 @@
+{
+    "id": "d98c2e60-130f-4b65-bb80-9ce5cc34f68c",
+    "brand": "黒猫",
+    "rating": 3.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": 0.4092557430267334,
+    "richnessLightness": 0.23390674591064453,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "300cc",
+    "alcoholPercent": 15.5,
+    "volumeMl": 300,
+    "images": [
+        "d98c2e60-130f-4b65-bb80-9ce5cc34f68c.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T01:53:29Z",
+    "updatedAt": "2026-09-27T11:27:40Z",
+    "deleted": false,
+    "deletedAt": ""
+}
