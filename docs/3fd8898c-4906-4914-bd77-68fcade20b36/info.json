@@ -1,0 +1,26 @@
+{
+    "id": "3fd8898c-4906-4914-bd77-68fcade20b36",
+    "brand": "こねこ",
+    "rating": 4.5,
+    "date": "2026-09-27",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "3fd8898c-4906-4914-bd77-68fcade20b36.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T02:31:34Z",
+    "updatedAt": "2026-09-27T11:27:17Z",
+    "deleted": false,
+    "deletedAt": ""
+}
