@@ -16,7 +16,7 @@
   ];
   var RATING_MINS = [0, 1, 2, 3, 4];
   var PAGE_SIZE = 10;
-  var EC_TITLES = { Amazon: "Amazon", Rakuten: "Rakuten", Yahoo: "Yahoo Shopping" };
+  var EC_TITLES = { Amazon: "Amazon", Rakuten: "Rakuten", Yahoo: "Yahoo" };
 
   // 日英の文言テーブル。
   var I18N = {
@@ -363,7 +363,7 @@
         var img = document.createElement("img");
         img.className = "card-photo";
         img.loading = "lazy";
-        img.src = imgUrl(r.id, r.thumb);
+        img.src = imgUrl(r.id, r.thumb, r.updatedAt);
         img.alt = r.brand || "";
         img.onerror = function () { swapPlaceholder(img, r); };
         card.appendChild(img);
@@ -398,13 +398,16 @@
     if (img.parentNode) img.parentNode.replaceChild(ph, img);
   }
 
-  // 画像URL: <id>/<filename>
-  function imgUrl(id, filename) {
-    return encodeURIComponent(id) + "/" + encodeURIComponent(filename);
+  // 画像URL: <id>/<filename>?v=<version>
+  // ver に updatedAt を付けると、同名で中身が変わった画像もキャッシュを回避して最新を表示できる。
+  function imgUrl(id, filename, ver) {
+    var u = encodeURIComponent(id) + "/" + encodeURIComponent(filename);
+    if (ver) u += "?v=" + encodeURIComponent(ver);
+    return u;
   }
 
   // ---- ダイアログ ----
-  var dialogState = { photos: [], photoIndex: 0, id: null, items: [], itemIndex: 0 };
+  var dialogState = { photos: [], photoIndex: 0, id: null, items: [], itemIndex: 0, ver: "" };
 
   function bindDialog() {
     document.getElementById("dialog-close").addEventListener("click", closeDialog);
@@ -463,6 +466,7 @@
     dialogState.id = r.id;
     dialogState.photos = (r.images || []).filter(function (x) { return !!x; });
     dialogState.photoIndex = 0;
+    dialogState.ver = r.updatedAt || "";
 
     var frag = document.createDocumentFragment();
 
@@ -473,7 +477,7 @@
     if (photos.length > 0) {
       var img = document.createElement("img");
       img.className = "d-photo";
-      img.src = imgUrl(r.id, photos[0]);
+      img.src = imgUrl(r.id, photos[0], dialogState.ver);
       img.onerror = function () { img.style.display = "none"; };
       pw.appendChild(img);
       if (photos.length > 1) {
@@ -617,7 +621,7 @@
     if (n < 0 || n >= dialogState.photos.length) return;
     dialogState.photoIndex = n;
     img.style.display = "";
-    img.src = imgUrl(dialogState.id, dialogState.photos[n]);
+    img.src = imgUrl(dialogState.id, dialogState.photos[n], dialogState.ver);
     countEl.textContent = (n + 1) + "/" + dialogState.photos.length;
   }
 
