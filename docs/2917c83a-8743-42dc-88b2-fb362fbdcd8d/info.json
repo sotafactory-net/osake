@@ -1,0 +1,26 @@
+{
+    "id": "2917c83a-8743-42dc-88b2-fb362fbdcd8d",
+    "brand": "ぶた",
+    "rating": 2.5,
+    "date": "2026-09-27",
+    "sweetnessDryness": -0.46573472023010254,
+    "richnessLightness": 0.4224480390548706,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "2917c83a-8743-42dc-88b2-fb362fbdcd8d.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T03:22:26Z",
+    "updatedAt": "2026-09-27T03:22:26Z",
+    "deleted": false,
+    "deletedAt": ""
+}
