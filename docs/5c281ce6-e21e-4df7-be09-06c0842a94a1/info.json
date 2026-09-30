@@ -1,0 +1,26 @@
+{
+    "id": "5c281ce6-e21e-4df7-be09-06c0842a94a1",
+    "brand": "こ！ら",
+    "rating": 0.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": -0.06951004266738892,
+    "richnessLightness": 0.3975111246109009,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "5c281ce6-e21e-4df7-be09-06c0842a94a1.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T11:42:32Z",
+    "updatedAt": "2026-09-27T11:42:32Z",
+    "deleted": false,
+    "deletedAt": ""
+}
