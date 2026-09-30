@@ -130,9 +130,9 @@
     var start = state.page * PAGE_SIZE;
     var pageItems = viewItems.slice(start, start + PAGE_SIZE);
 
-    renderMap("position-plot", pageItems, positionCoord);
-    renderMap("taste-plot", pageItems, tasteCoord);
-    renderCards(pageItems);
+    renderMap("position-plot", pageItems, positionCoord, start);
+    renderMap("taste-plot", pageItems, tasteCoord, start);
+    renderCards(pageItems, start);
   }
 
   function compareBy(a, b, key, asc) {
@@ -159,7 +159,7 @@
     return { x: clampPct(x), y: clampPct(y) };
   }
 
-  function renderMap(plotId, items, coordFn) {
+  function renderMap(plotId, items, coordFn, startIndex) {
     var plot = document.getElementById(plotId);
     plot.innerHTML = "";
     items.forEach(function (r, i) {
@@ -168,14 +168,14 @@
       m.className = "marker";
       m.style.left = c.x + "%";
       m.style.top = c.y + "%";
-      m.textContent = String(i + 1);
+      m.textContent = String(startIndex + i + 1); // ページ通算の番号
       m.addEventListener("click", function () { openDialog(r, items, i); });
       plot.appendChild(m);
     });
   }
 
   // ---- カード ----
-  function renderCards(items) {
+  function renderCards(items, startIndex) {
     var wrap = document.getElementById("cards");
     wrap.innerHTML = "";
     if (items.length === 0) { setStatus("該当する記録がありません"); return; }
@@ -187,7 +187,7 @@
 
       var idx = document.createElement("div");
       idx.className = "card-index";
-      idx.textContent = String(i + 1);
+      idx.textContent = String(startIndex + i + 1); // ページ通算の番号
       card.appendChild(idx);
 
       if (r.thumb) {
@@ -312,6 +312,9 @@
         prev.addEventListener("click", function () { movePhoto(img, count, -1); });
         next.addEventListener("click", function () { movePhoto(img, count, 1); });
         pw.appendChild(prev); pw.appendChild(next); pw.appendChild(count);
+
+        // スワイプ（タッチ／マウス）で写真を切り替える。
+        attachSwipe(pw, function (dir) { movePhoto(img, count, dir); });
       }
     } else {
       pw.textContent = r.brand || "No Image";
@@ -366,6 +369,42 @@
     if (ec) frag.appendChild(ec);
 
     return frag;
+  }
+
+  // 要素に横スワイプ検出を付ける。左スワイプ=次(+1)、右スワイプ=前(-1)。
+  function attachSwipe(el, onSwipe) {
+    var startX = 0, startY = 0, tracking = false;
+    var THRESHOLD = 40; // これ以上の横移動でスワイプと判定
+
+    el.addEventListener("touchstart", function (e) {
+      if (!e.touches || e.touches.length === 0) return;
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+      tracking = true;
+    }, { passive: true });
+
+    el.addEventListener("touchend", function (e) {
+      if (!tracking) return;
+      tracking = false;
+      var t = (e.changedTouches && e.changedTouches[0]) ? e.changedTouches[0] : null;
+      if (!t) return;
+      handle(t.clientX - startX, t.clientY - startY);
+    });
+
+    // マウスドラッグにも対応（PC確認用）。
+    el.addEventListener("mousedown", function (e) {
+      startX = e.clientX; startY = e.clientY; tracking = true;
+    });
+    el.addEventListener("mouseup", function (e) {
+      if (!tracking) return;
+      tracking = false;
+      handle(e.clientX - startX, e.clientY - startY);
+    });
+
+    function handle(dx, dy) {
+      if (Math.abs(dx) < THRESHOLD || Math.abs(dx) < Math.abs(dy)) return; // 横スワイプのみ
+      onSwipe(dx < 0 ? 1 : -1);
+    }
   }
 
   function movePhoto(img, countEl, dir) {
