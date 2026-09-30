@@ -32,7 +32,7 @@
       "pos.rich": "濃醇", "pos.light": "淡麗", "pos.dry": "辛口", "pos.sweet": "甘口",
       "taste.top": "フルーティ高", "taste.bottom": "フルーティ低",
       "taste.left": "甘味度 低", "taste.right": "甘味度 高",
-      "d.fruity": "フルーティ", "d.sweetness": "甘味度",
+      "d.fruity": "果実度", "d.sweetness": "甘味度",
       "d.alcohol": "度数: {0} %", "d.volume": "容量: {0} ml", "d.volumeNone": "容量: -",
       "d.origin": "産地: {0}", "d.untitled": "(無題)", "d.noImage": "No Image",
       "ec.noPrice": "-",
@@ -53,7 +53,7 @@
       "pos.rich": "Rich", "pos.light": "Light", "pos.dry": "Dry", "pos.sweet": "Sweet",
       "taste.top": "Fruity High", "taste.bottom": "Fruity Low",
       "taste.left": "Sweetness Low", "taste.right": "Sweetness High",
-      "d.fruity": "Fruity", "d.sweetness": "Sweetness",
+      "d.fruity": "Fruity", "d.sweetness": "Sweet",
       "d.alcohol": "ABV: {0} %", "d.volume": "Volume: {0} ml", "d.volumeNone": "Volume: -",
       "d.origin": "Origin: {0}", "d.untitled": "(Untitled)", "d.noImage": "No Image",
       "ec.noPrice": "-",
@@ -681,7 +681,7 @@
   function sliderRow(label, value, min, max) {
     var row = document.createElement("div");
     row.className = "d-box d-slider";
-    var lbl = document.createElement("span"); lbl.textContent = label;
+    var lbl = document.createElement("span"); lbl.className = "d-slider-label"; lbl.textContent = label;
     var track = document.createElement("div"); track.className = "d-slider-track";
     var dot = document.createElement("div"); dot.className = "d-slider-dot";
     var pct = ((value - min) / (max - min)) * 100;
