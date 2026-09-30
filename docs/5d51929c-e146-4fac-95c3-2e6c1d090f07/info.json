@@ -1,0 +1,26 @@
+{
+    "id": "5d51929c-e146-4fac-95c3-2e6c1d090f07",
+    "brand": "子猫ちゃん",
+    "rating": 4.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": -0.4021960496902466,
+    "richnessLightness": 0.4794793128967285,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "愛知県",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "5d51929c-e146-4fac-95c3-2e6c1d090f07.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T11:16:36Z",
+    "updatedAt": "2026-09-27T11:16:45Z",
+    "deleted": false,
+    "deletedAt": ""
+}
