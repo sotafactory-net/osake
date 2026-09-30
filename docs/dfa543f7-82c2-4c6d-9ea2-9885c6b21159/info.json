@@ -1,0 +1,37 @@
+{
+    "id": "dfa543f7-82c2-4c6d-9ea2-9885c6b21159",
+    "brand": "エンプティ",
+    "rating": 3.0,
+    "date": "2026-09-29",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1209,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uglfo.euhkma00.g00uglfo.euhkn646/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-bunbun%2F4571491680058%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fr-bunbun%2Fi%2F10107433%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/r-bunbun/cabinet/image360/4571491680058_1.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 23100,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fzozo%2F92627066.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/zozo_92627066"
+        }
+    ],
+    "createdAt": "2026-09-28T15:02:37Z",
+    "updatedAt": "2026-09-29T12:22:32Z",
+    "deleted": false,
+    "deletedAt": ""
+}
