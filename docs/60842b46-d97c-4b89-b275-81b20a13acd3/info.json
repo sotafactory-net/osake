@@ -1,0 +1,26 @@
+{
+    "id": "60842b46-d97c-4b89-b275-81b20a13acd3",
+    "brand": "タラパティ",
+    "rating": 2.5,
+    "date": "2026-09-27",
+    "sweetnessDryness": 0.11176109313964844,
+    "richnessLightness": 0.2084794044494629,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "愛知県",
+    "alcoholPercent": 25.0,
+    "volumeMl": 0,
+    "images": [
+        "60842b46-d97c-4b89-b275-81b20a13acd3.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T10:58:21Z",
+    "updatedAt": "2026-09-27T10:58:21Z",
+    "deleted": false,
+    "deletedAt": ""
+}
