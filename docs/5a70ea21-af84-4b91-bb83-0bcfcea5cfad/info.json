@@ -1,0 +1,26 @@
+{
+    "id": "5a70ea21-af84-4b91-bb83-0bcfcea5cfad",
+    "brand": "カーン",
+    "rating": 5.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": 0.38528335094451904,
+    "richnessLightness": 0.30611419677734375,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "5a70ea21-af84-4b91-bb83-0bcfcea5cfad.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T09:46:32Z",
+    "updatedAt": "2026-09-27T09:46:32Z",
+    "deleted": false,
+    "deletedAt": ""
+}
