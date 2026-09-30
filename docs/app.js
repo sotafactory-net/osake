@@ -133,6 +133,28 @@
     renderMap("position-plot", pageItems, positionCoord, start);
     renderMap("taste-plot", pageItems, tasteCoord, start);
     renderCards(pageItems, start);
+
+    // カテゴリが日本酒のとき、ポジションマップを4象限画像の背景に切り替える。
+    applyPositionBackground(state.category === "Sake");
+  }
+
+  // 日本酒モード: ポジションマップに4象限画像を敷き、HTMLの軸ラベルを隠す。
+  function applyPositionBackground(sake) {
+    var map = document.getElementById("position-map");
+    if (!map) return;
+    if (sake) {
+      map.classList.add("sake-mode");
+      map.style.backgroundImage = "url('" + positionImageUrl() + "')";
+    } else {
+      map.classList.remove("sake-mode");
+      map.style.backgroundImage = "";
+    }
+  }
+
+  // 端末言語で日本語/英語の4象限画像URLを返す。
+  function positionImageUrl() {
+    var ja = (navigator.language || "").toLowerCase().indexOf("ja") === 0;
+    return ja ? "assets/position_sake.png" : "assets/position_sake_en.png";
   }
 
   function compareBy(a, b, key, asc) {
@@ -339,8 +361,9 @@
 
     var left = document.createElement("div");
     left.className = "d-detail-left";
-    left.appendChild(box("d-box", "カテゴリ: " + (CATEGORY_LABELS[r.category] || "その他")));
-    left.appendChild(box("d-box", "サブカテゴリ: " + (r.subCategory || "")));
+    // カテゴリ・サブカテゴリは見出し文字なしで値のみ表示。
+    left.appendChild(box("d-box", CATEGORY_LABELS[r.category] || "その他"));
+    left.appendChild(box("d-box", r.subCategory || ""));
     left.appendChild(sliderRow("フルーティ", num(r.fruity), -5, 5));
     left.appendChild(sliderRow("甘味度", num(r.sweetness), -5, 5));
     left.appendChild(box("d-box", "度数: " + fmtNum(r.alcoholPercent) + " %"));
@@ -348,10 +371,18 @@
 
     var right = document.createElement("div");
     right.className = "d-detail-right";
-    right.appendChild(miniAxis("濃醇", "top"));
-    right.appendChild(miniAxis("淡麗", "bottom"));
-    right.appendChild(miniAxis("辛口", "left"));
-    right.appendChild(miniAxis("甘口", "right"));
+
+    var sake = (r.category === "Sake");
+    if (sake) {
+      // 日本酒モード: 4象限画像を背景に。軸ラベルは画像に含まれるため出さない。
+      right.classList.add("sake-mode");
+      right.style.backgroundImage = "url('" + positionImageUrl() + "')";
+    } else {
+      right.appendChild(miniAxis("濃醇", "top"));
+      right.appendChild(miniAxis("淡麗", "bottom"));
+      right.appendChild(miniAxis("辛口", "left"));
+      right.appendChild(miniAxis("甘口", "right"));
+    }
     var pc = positionCoord(r);
     var dot = document.createElement("div");
     dot.className = "d-pos-marker";
