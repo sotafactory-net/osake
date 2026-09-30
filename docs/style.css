@@ -182,6 +182,35 @@ main {
 
 .status { text-align: center; color: var(--muted); padding: 20px; }
 
+/* フッター（アプリへのリンク） */
+.app-footer {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: center;
+}
+.app-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+  text-decoration: none;
+  color: var(--text);
+}
+.app-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: block;
+}
+.app-link-text { display: flex; flex-direction: column; }
+.app-name { font-size: 18px; font-weight: bold; }
+.app-sub { font-size: 13px; color: var(--muted); }
+
 /* ダイアログ */
 .dialog-overlay {
   position: fixed;
