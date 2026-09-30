@@ -1,0 +1,45 @@
+{
+    "id": "3c8de788-4d78-4003-953b-84c964f75626",
+    "brand": "特撰國盛 彩華 大吟醸",
+    "rating": 3.0,
+    "date": "2026-09-29",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "3c8de788-4d78-4003-953b-84c964f75626_0.jpg"
+    ],
+    "janCode": "4978526407411",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1463,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rtxqo.euhkm47e.g00rtxqo.euhknfc0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkunizakari%2F10000046%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkunizakari%2Fi%2F10000046%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kunizakari/cabinet/03530656/sam/nihonshu/saikadaigin_720_main.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1463,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkunizakari%2F10000046.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/kunizakari_10000046"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4978526407411",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-09-28T16:00:28Z",
+    "updatedAt": "2026-09-29T12:38:06Z",
+    "deleted": false,
+    "deletedAt": ""
+}
