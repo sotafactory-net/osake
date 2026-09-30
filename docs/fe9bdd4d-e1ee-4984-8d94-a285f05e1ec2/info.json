@@ -1,0 +1,45 @@
+{
+    "id": "fe9bdd4d-e1ee-4984-8d94-a285f05e1ec2",
+    "brand": "彩華",
+    "rating": 4.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": -0.15694677829742432,
+    "richnessLightness": 0.29354119300842285,
+    "fruity": -1,
+    "sweetness": 1,
+    "place": "自宅",
+    "comment": "バローで売っていた",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 15.0,
+    "volumeMl": 720,
+    "images": [
+        "fe9bdd4d-e1ee-4984-8d94-a285f05e1ec2_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 2399,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tir9o.euhkm306.g00tir9o.euhknbb7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhkcs%2Fsk-3in1-1set-ac-all%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhkcs%2Fi%2F10000826%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/hkcs/cabinet/10276658/sk-3in1-1set-new-zt.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 24300,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmvtokai-yho%2Fhdo1000022.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/mvtokai-yho_hdo1000022"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e5%bd%a9%e8%8f%af",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-09-27T11:30:16Z",
+    "updatedAt": "2026-09-29T12:32:54Z",
+    "deleted": false,
+    "deletedAt": ""
+}
