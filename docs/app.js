@@ -4,36 +4,90 @@
 (function () {
   "use strict";
 
-  // ---- 定数（Android の CategoryMaster / Loc と対応）----
-  var CATEGORY_LABELS = {
-    All: "すべて",
-    Sake: "日本酒",
-    Wine: "ワイン",
-    Whisky: "ウイスキー",
-    Sour: "サワー",
-    Other: "その他"
-  };
+  // ---- 言語（Android の Loc と同じ文言）----
   var CATEGORY_ORDER = ["All", "Sake", "Wine", "Whisky", "Sour", "Other"];
-
   var SORT_OPTIONS = [
-    { key: "rating", asc: false, label: "評価（降順）" },
-    { key: "rating", asc: true,  label: "評価（昇順）" },
-    { key: "brand",  asc: false, label: "銘柄（降順）" },
-    { key: "brand",  asc: true,  label: "銘柄（昇順）" },
-    { key: "date",   asc: false, label: "年月日（降順）" },
-    { key: "date",   asc: true,  label: "年月日（昇順）" }
+    { key: "rating", asc: false },
+    { key: "rating", asc: true },
+    { key: "brand",  asc: false },
+    { key: "brand",  asc: true },
+    { key: "date",   asc: false },
+    { key: "date",   asc: true }
   ];
-
-  var RATING_OPTIONS = [
-    { min: 0, label: "すべて" },
-    { min: 1, label: "★1以上" },
-    { min: 2, label: "★2以上" },
-    { min: 3, label: "★3以上" },
-    { min: 4, label: "★4以上" }
-  ];
-
+  var RATING_MINS = [0, 1, 2, 3, 4];
   var PAGE_SIZE = 10;
   var EC_TITLES = { Amazon: "Amazon", Rakuten: "Rakuten", Yahoo: "Yahoo Shopping" };
+
+  // 日英の文言テーブル。
+  var I18N = {
+    ja: {
+      "cat.All": "すべて", "cat.Sake": "日本酒", "cat.Wine": "ワイン",
+      "cat.Whisky": "ウイスキー", "cat.Sour": "サワー", "cat.Other": "その他",
+      "rating.0": "すべて", "rating.1": "★1以上", "rating.2": "★2以上", "rating.3": "★3以上", "rating.4": "★4以上",
+      "sort.ratingDesc": "評価（降順）", "sort.ratingAsc": "評価（昇順）",
+      "sort.brandDesc": "銘柄（降順）", "sort.brandAsc": "銘柄（昇順）",
+      "sort.dateDesc": "年月日（降順）", "sort.dateAsc": "年月日（昇順）",
+      "page.items": "表示件数: {0}〜{1}",
+      "acc.position": "ポジション", "acc.taste": "味わい",
+      "pos.rich": "濃醇", "pos.light": "淡麗", "pos.dry": "辛口", "pos.sweet": "甘口",
+      "taste.top": "フルーティ高", "taste.bottom": "フルーティ低",
+      "taste.left": "甘味度 低", "taste.right": "甘味度 高",
+      "d.fruity": "フルーティ", "d.sweetness": "甘味度",
+      "d.alcohol": "度数: {0} %", "d.volume": "容量: {0} ml", "d.volumeNone": "容量: -",
+      "d.origin": "産地: {0}", "d.untitled": "(無題)", "d.noImage": "No Image",
+      "ec.noPrice": "-",
+      "status.loading": "読み込み中...", "status.empty": "該当する記録がありません",
+      "status.loadFail": "データの読み込みに失敗しました: {0}",
+      "app.name": "お酒記録",
+      "footer.sub": "Google Play で手に入れよう"
+    },
+    en: {
+      "cat.All": "All", "cat.Sake": "Sake", "cat.Wine": "Wine",
+      "cat.Whisky": "Whisky", "cat.Sour": "Sour", "cat.Other": "Other",
+      "rating.0": "All", "rating.1": "★1+", "rating.2": "★2+", "rating.3": "★3+", "rating.4": "★4+",
+      "sort.ratingDesc": "Rating (High→Low)", "sort.ratingAsc": "Rating (Low→High)",
+      "sort.brandDesc": "Name (Z→A)", "sort.brandAsc": "Name (A→Z)",
+      "sort.dateDesc": "Date (New→Old)", "sort.dateAsc": "Date (Old→New)",
+      "page.items": "Items: {0}-{1}",
+      "acc.position": "Position", "acc.taste": "Taste",
+      "pos.rich": "Rich", "pos.light": "Light", "pos.dry": "Dry", "pos.sweet": "Sweet",
+      "taste.top": "Fruity High", "taste.bottom": "Fruity Low",
+      "taste.left": "Sweetness Low", "taste.right": "Sweetness High",
+      "d.fruity": "Fruity", "d.sweetness": "Sweetness",
+      "d.alcohol": "ABV: {0} %", "d.volume": "Volume: {0} ml", "d.volumeNone": "Volume: -",
+      "d.origin": "Origin: {0}", "d.untitled": "(Untitled)", "d.noImage": "No Image",
+      "ec.noPrice": "-",
+      "status.loading": "Loading...", "status.empty": "No records found",
+      "status.loadFail": "Failed to load data: {0}",
+      "app.name": "Drink Log",
+      "footer.sub": "Get it on Google Play"
+    }
+  };
+
+  var lang = detectLang(); // "ja" or "en"
+
+  function detectLang() {
+    var saved = null;
+    try { saved = localStorage.getItem("osake.lang"); } catch (e) {}
+    if (saved === "ja" || saved === "en") return saved;
+    return (navigator.language || "").toLowerCase().indexOf("ja") === 0 ? "ja" : "en";
+  }
+  function setLang(l) {
+    lang = l;
+    try { localStorage.setItem("osake.lang", l); } catch (e) {}
+  }
+  function t(key) {
+    var table = I18N[lang] || I18N.ja;
+    return (key in table) ? table[key] : key;
+  }
+  function tf(key) {
+    var s = t(key);
+    for (var i = 1; i < arguments.length; i++) {
+      s = s.replace("{" + (i - 1) + "}", arguments[i]);
+    }
+    return s;
+  }
+  function catLabel(c) { return t("cat." + (c || "Other")); }
 
   // ---- 状態 ----
   var allItems = [];    // list.json の items（deleted除外）
@@ -49,14 +103,16 @@
   document.addEventListener("DOMContentLoaded", init);
 
   function init() {
+    buildLangDropdown();
     buildDropdowns();
+    applyStaticTexts();
     bindAccordions();
     bindDialog();
     loadData();
   }
 
   function loadData() {
-    setStatus("読み込み中...");
+    setStatus(t("status.loading"));
     fetch("list.json?_=" + Date.now())
       .then(function (res) {
         if (!res.ok) throw new Error("HTTP " + res.status);
@@ -69,30 +125,93 @@
         render();
       })
       .catch(function (e) {
-        setStatus("データの読み込みに失敗しました: " + e.message);
+        setStatus(tf("status.loadFail", e.message));
       });
+  }
+
+  // 言語プルダウン（EN/JP）。切替時に全文言を作り直す。
+  function buildLangDropdown() {
+    var sel = document.getElementById("filter-lang");
+    if (!sel) return;
+    sel.innerHTML = "";
+    sel.appendChild(opt("ja", "JP"));
+    sel.appendChild(opt("en", "EN"));
+    sel.value = lang;
+    sel.addEventListener("change", function () {
+      setLang(sel.value);
+      rebuildDropdownLabels();
+      applyStaticTexts();
+      render();
+    });
   }
 
   // ---- ドロップダウン生成 ----
   function buildDropdowns() {
     var cat = document.getElementById("filter-category");
-    CATEGORY_ORDER.forEach(function (key) { cat.appendChild(opt(key, CATEGORY_LABELS[key])); });
+    CATEGORY_ORDER.forEach(function (key) { cat.appendChild(opt(key, catLabel(key))); });
     cat.value = state.category;
     cat.addEventListener("change", function () { state.category = cat.value; state.page = 0; render(); });
 
     var rating = document.getElementById("filter-rating");
-    RATING_OPTIONS.forEach(function (o, i) { rating.appendChild(opt(String(i), o.label)); });
+    RATING_MINS.forEach(function (m, i) { rating.appendChild(opt(String(i), t("rating." + m))); });
     rating.value = "0";
-    rating.addEventListener("change", function () { state.ratingMin = RATING_OPTIONS[parseInt(rating.value, 10)].min; state.page = 0; render(); });
+    rating.addEventListener("change", function () { state.ratingMin = RATING_MINS[parseInt(rating.value, 10)]; state.page = 0; render(); });
 
     var sort = document.getElementById("filter-sort");
-    SORT_OPTIONS.forEach(function (o, i) { sort.appendChild(opt(String(i), o.label)); });
+    SORT_OPTIONS.forEach(function (o, i) { sort.appendChild(opt(String(i), sortLabel(i))); });
     sort.value = String(state.sortIndex);
     sort.addEventListener("change", function () { state.sortIndex = parseInt(sort.value, 10); state.page = 0; render(); });
 
     document.getElementById("filter-page").addEventListener("change", function (e) {
       state.page = parseInt(e.target.value, 10) || 0; render();
     });
+  }
+
+  // ソートインデックスに対応するラベルキー。
+  var SORT_KEYS = ["sort.ratingDesc", "sort.ratingAsc", "sort.brandDesc", "sort.brandAsc", "sort.dateDesc", "sort.dateAsc"];
+  function sortLabel(i) { return t(SORT_KEYS[i]); }
+
+  // 言語切替時に、選択状態を保ったままドロップダウンのラベルを作り直す。
+  function rebuildDropdownLabels() {
+    var cat = document.getElementById("filter-category");
+    var catVal = cat.value;
+    cat.innerHTML = "";
+    CATEGORY_ORDER.forEach(function (key) { cat.appendChild(opt(key, catLabel(key))); });
+    cat.value = catVal;
+
+    var rating = document.getElementById("filter-rating");
+    var rVal = rating.value;
+    rating.innerHTML = "";
+    RATING_MINS.forEach(function (m, i) { rating.appendChild(opt(String(i), t("rating." + m))); });
+    rating.value = rVal;
+
+    var sort = document.getElementById("filter-sort");
+    var sVal = sort.value;
+    sort.innerHTML = "";
+    SORT_OPTIONS.forEach(function (o, i) { sort.appendChild(opt(String(i), sortLabel(i))); });
+    sort.value = sVal;
+  }
+
+  // アコーディオン見出し・軸ラベル・フッターなど固定文言を反映する。
+  function applyStaticTexts() {
+    setText("acc-title-position", t("acc.position"));
+    setText("acc-title-taste", t("acc.taste"));
+    setText("pos-axis-top", t("pos.rich"));
+    setText("pos-axis-bottom", t("pos.light"));
+    setText("pos-axis-left", t("pos.dry"));
+    setText("pos-axis-right", t("pos.sweet"));
+    setText("taste-axis-top", t("taste.top"));
+    setText("taste-axis-bottom", t("taste.bottom"));
+    setText("taste-axis-left", t("taste.left"));
+    setText("taste-axis-right", t("taste.right"));
+    setText("footer-name", t("app.name"));
+    setText("footer-sub", t("footer.sub"));
+    document.documentElement.lang = lang;
+  }
+
+  function setText(id, text) {
+    var el = document.getElementById(id);
+    if (el) el.textContent = text;
   }
 
   function rebuildPageDropdown(total) {
@@ -103,7 +222,7 @@
     for (var i = 0; i < pages; i++) {
       var from = i * PAGE_SIZE + 1;
       var to = Math.min((i + 1) * PAGE_SIZE, total);
-      page.appendChild(opt(String(i), "表示件数: " + from + "〜" + to));
+      page.appendChild(opt(String(i), tf("page.items", from, to)));
     }
     page.value = String(state.page);
   }
@@ -200,7 +319,7 @@
   function renderCards(items, startIndex) {
     var wrap = document.getElementById("cards");
     wrap.innerHTML = "";
-    if (items.length === 0) { setStatus("該当する記録がありません"); return; }
+    if (items.length === 0) { setStatus(t("status.empty")); return; }
     setStatus("");
 
     items.forEach(function (r, i) {
@@ -243,7 +362,7 @@
   function placeholderEl(r) {
     var ph = document.createElement("div");
     ph.className = "card-photo placeholder";
-    ph.textContent = r.brand || "No Image";
+    ph.textContent = r.brand || t("d.noImage");
     return ph;
   }
   function swapPlaceholder(img, r) {
@@ -343,11 +462,15 @@
         attachSwipe(pw, function (dir) { movePhoto(img, count, dir); });
       }
     } else {
-      pw.textContent = r.brand || "No Image";
+      pw.textContent = r.brand || t("d.noImage");
     }
     frag.appendChild(pw);
 
-    frag.appendChild(box("d-box", r.brand || "(無題)"));
+    // 写真より下の全コンテンツをまとめるコンテナ。ここ全面をスワイプで前後移動できる。
+    var below = document.createElement("div");
+    below.className = "d-below";
+
+    below.appendChild(box("d-box", r.brand || t("d.untitled")));
 
     var row = document.createElement("div");
     row.className = "d-row";
@@ -355,17 +478,17 @@
     ratingBox.innerHTML = '<span class="d-rating">' + stars(r.rating) + "</span> " + (num(r.rating).toFixed(1));
     row.appendChild(ratingBox);
     row.appendChild(box("d-box", formatDate(r.date)));
-    frag.appendChild(row);
+    below.appendChild(row);
 
-    frag.appendChild(box("d-box", r.place || ""));
-    frag.appendChild(box("d-box d-comment", r.comment || ""));
+    below.appendChild(box("d-box", r.place || ""));
+    below.appendChild(box("d-box d-comment", r.comment || ""));
 
     // 上段: カテゴリ / サブカテゴリ（横2列、見出し文字なし）
     var catRow = document.createElement("div");
     catRow.className = "d-row";
-    catRow.appendChild(box("d-box", CATEGORY_LABELS[r.category] || "その他"));
+    catRow.appendChild(box("d-box", catLabel(r.category)));
     catRow.appendChild(box("d-box", r.subCategory || ""));
-    frag.appendChild(catRow);
+    below.appendChild(catRow);
 
     // 中段: 左（フルーティ/甘味度/度数/容量）＋ 右（Position 正方形）
     var detail = document.createElement("div");
@@ -373,10 +496,10 @@
 
     var left = document.createElement("div");
     left.className = "d-detail-left";
-    left.appendChild(sliderRow("フルーティ", num(r.fruity), -5, 5));
-    left.appendChild(sliderRow("甘味度", num(r.sweetness), -5, 5));
-    left.appendChild(box("d-box", "度数: " + fmtNum(r.alcoholPercent) + " %"));
-    left.appendChild(box("d-box", "容量: " + (r.volumeMl > 0 ? r.volumeMl + " ml" : "-")));
+    left.appendChild(sliderRow(t("d.fruity"), num(r.fruity), -5, 5));
+    left.appendChild(sliderRow(t("d.sweetness"), num(r.sweetness), -5, 5));
+    left.appendChild(box("d-box", tf("d.alcohol", fmtNum(r.alcoholPercent))));
+    left.appendChild(box("d-box", r.volumeMl > 0 ? tf("d.volume", r.volumeMl) : t("d.volumeNone")));
 
     var right = document.createElement("div");
     right.className = "d-detail-right";
@@ -387,10 +510,10 @@
       right.classList.add("sake-mode");
       right.style.backgroundImage = "url('" + positionImageUrl() + "')";
     } else {
-      right.appendChild(miniAxis("濃醇", "top"));
-      right.appendChild(miniAxis("淡麗", "bottom"));
-      right.appendChild(miniAxis("辛口", "left"));
-      right.appendChild(miniAxis("甘口", "right"));
+      right.appendChild(miniAxis(t("pos.rich"), "top"));
+      right.appendChild(miniAxis(t("pos.light"), "bottom"));
+      right.appendChild(miniAxis(t("pos.dry"), "left"));
+      right.appendChild(miniAxis(t("pos.sweet"), "right"));
     }
     var pc = positionCoord(r);
     var dot = document.createElement("div");
@@ -401,17 +524,18 @@
 
     detail.appendChild(left);
     detail.appendChild(right);
-    frag.appendChild(detail);
+    below.appendChild(detail);
 
-    frag.appendChild(box("d-box", "産地: " + (r.origin || "")));
+    below.appendChild(box("d-box", tf("d.origin", r.origin || "")));
 
     var ec = buildEc(r.ecItems);
-    if (ec) frag.appendChild(ec);
+    if (ec) below.appendChild(ec);
 
-    // 写真より下の領域を左右スワイプすると、リストの前後の商品へ移動する。
-    // 写真エリア(pw)にはスワイプが付かないので、写真の写真送りと競合しない。
-    attachSwipe(detail, moveItem);
-    attachSwipe(catRow, moveItem);
+    frag.appendChild(below);
+
+    // 写真より下の領域全体を左右スワイプすると、リストの前後の商品へ移動する。
+    // 写真エリア(pw)は別なので、写真送りと競合しない。
+    attachSwipe(below, moveItem);
 
     return frag;
   }
@@ -502,7 +626,7 @@
 
       var price = document.createElement("div");
       price.className = "d-ec-price";
-      price.textContent = it.price > 0 ? "¥" + Number(it.price).toLocaleString() : "-";
+      price.textContent = it.price > 0 ? "¥" + Number(it.price).toLocaleString() : t("ec.noPrice");
       a.appendChild(price);
 
       wrap.appendChild(a);
