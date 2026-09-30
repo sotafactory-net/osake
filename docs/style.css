@@ -56,8 +56,8 @@ body {
   width: 100%;
 }
 .dropdown {
-  flex: 1 1 auto;
-  min-width: 120px;
+  flex: 1 1 0;        /* 行内で均等に分配し、狭くても縮む */
+  min-width: 0;
   padding: 8px;
   border: 1px solid var(--border);
   border-radius: 4px;
@@ -67,8 +67,7 @@ body {
 }
 /* 言語プルダウン（EN/JP）は幅を小さく固定 */
 .dropdown-lang {
-  flex: 0 0 auto;
-  min-width: 64px;
+  flex: 0 0 72px;
   width: 72px;
 }
 
@@ -379,5 +378,4 @@ main {
 /* スマホ幅 */
 @media (max-width: 600px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
-  .toolbar .dropdown { min-width: 45%; }
 }
