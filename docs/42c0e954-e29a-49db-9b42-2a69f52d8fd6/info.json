@@ -18,12 +18,6 @@
     "janCode": "4901777446823",
     "ecItems": [
         {
-            "provider": "Rakuten",
-            "price": 195,
-            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ptqoo.euhkm97a.g00ptqoo.euhkn55a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkuranosuke%2F23380-24%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkuranosuke%2Fi%2F10017442%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
-            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kuranosuke/cabinet/80/23380_1.jpg?_ex=128x128"
-        },
-        {
             "provider": "Yahoo",
             "price": 1198,
             "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/wne2028/",
@@ -37,7 +31,7 @@
         }
     ],
     "createdAt": "2026-09-30T22:43:39Z",
-    "updatedAt": "2026-09-30T23:09:20Z",
+    "updatedAt": "2026-09-30T23:15:55Z",
     "deleted": false,
     "deletedAt": ""
 }
