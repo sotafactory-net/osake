@@ -1,0 +1,41 @@
+{
+    "id": "830e3844-1f3a-46bc-b057-2c6c675cd82a",
+    "brand": "複数枚",
+    "rating": 3.0,
+    "date": "2026-09-28",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": -2,
+    "sweetness": 4,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "830e3844-1f3a-46bc-b057-2c6c675cd82a_0.jpg",
+        "830e3844-1f3a-46bc-b057-2c6c675cd82a_1.jpg",
+        "830e3844-1f3a-46bc-b057-2c6c675cd82a_2.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 4730,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r7l5o.euhkm8fe.g00r7l5o.euhkn409/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fphotoplus%2F4934122073948%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fphotoplus%2Fi%2F10001218%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/photoplus/cabinet/shohin/02245693/stylishframe/imgrc0065086939.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 8999,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Falpen-group%2F7300090505.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/alpen-group_7300090505"
+        }
+    ],
+    "createdAt": "2026-09-28T14:39:03Z",
+    "updatedAt": "2026-09-29T14:22:02Z",
+    "deleted": false,
+    "deletedAt": ""
+}
