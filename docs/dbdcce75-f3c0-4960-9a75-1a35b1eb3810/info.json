@@ -1,0 +1,41 @@
+{
+    "id": "dbdcce75-f3c0-4960-9a75-1a35b1eb3810",
+    "brand": "Thalapathy",
+    "rating": 3.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "dbdcce75-f3c0-4960-9a75-1a35b1eb3810_0.jpg",
+        "dbdcce75-f3c0-4960-9a75-1a35b1eb3810_1.jpg",
+        "dbdcce75-f3c0-4960-9a75-1a35b1eb3810_2.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 650,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00reb4o.euhkmc7b.g00reb4o.euhknb0f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakutenkobo-ebooks%2Fd874ba916f813ed6988eae6356f48557%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakutenkobo-ebooks%2Fi%2F26599861%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakutenkobo-ebooks/cabinet/1064/2000021171064.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=Thalapathy",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-09-27T00:45:08Z",
+    "updatedAt": "2026-09-29T22:23:56Z",
+    "deleted": false,
+    "deletedAt": ""
+}
