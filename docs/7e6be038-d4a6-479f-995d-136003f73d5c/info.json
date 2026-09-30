@@ -1,0 +1,26 @@
+{
+    "id": "7e6be038-d4a6-479f-995d-136003f73d5c",
+    "brand": "お酒のまえ",
+    "rating": 0.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": 0.49969685077667236,
+    "richnessLightness": 0.25396430492401123,
+    "fruity": 3,
+    "sweetness": -2,
+    "place": "ステーションai",
+    "comment": "※",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "鶴舞",
+    "alcoholPercent": 3.5,
+    "volumeMl": 300,
+    "images": [
+        "7e6be038-d4a6-479f-995d-136003f73d5c_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T04:38:02Z",
+    "updatedAt": "2026-09-28T17:00:43Z",
+    "deleted": false,
+    "deletedAt": ""
+}
