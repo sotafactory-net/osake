@@ -1,0 +1,26 @@
+{
+    "id": "a056a56e-1747-48b8-8e1d-72f495b321e3",
+    "brand": "うちのねこ",
+    "rating": 5.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "a056a56e-1747-48b8-8e1d-72f495b321e3.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T03:21:43Z",
+    "updatedAt": "2026-09-27T03:21:43Z",
+    "deleted": false,
+    "deletedAt": ""
+}
