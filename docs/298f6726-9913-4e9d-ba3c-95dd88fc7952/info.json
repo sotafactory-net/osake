@@ -1,0 +1,26 @@
+{
+    "id": "298f6726-9913-4e9d-ba3c-95dd88fc7952",
+    "brand": "拡大猫",
+    "rating": 2.5,
+    "date": "2026-09-28",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "298f6726-9913-4e9d-ba3c-95dd88fc7952_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-28T01:07:45Z",
+    "updatedAt": "2026-09-28T14:41:37Z",
+    "deleted": false,
+    "deletedAt": ""
+}
