@@ -64,6 +64,34 @@
     }
   };
 
+  // サブカテゴリ（保存値は日本語）→英語ローマ字表記。Android の subcat.* と同じ。
+  var SUBCAT_EN = {
+    "その他": "Other",
+    "純米大吟醸": "Junmai Daiginjo",
+    "純米吟醸": "Junmai Ginjo",
+    "特別純米酒": "Tokubetsu Junmai",
+    "純米酒": "Junmai",
+    "大吟醸": "Daiginjo",
+    "吟醸": "Ginjo",
+    "特別本醸造": "Tokubetsu Honjozo",
+    "本醸造": "Honjozo",
+    "赤": "Red",
+    "白": "White",
+    "ロゼ": "Rose",
+    "スパークリング": "Sparkling",
+    "シングルモルト": "Single Malt",
+    "ブレンデッド": "Blended",
+    "バーボン": "Bourbon",
+    "レモン": "Lemon",
+    "グレープフルーツ": "Grapefruit"
+  };
+  // サブカテゴリを現在の言語で表示する。英語かつ対応があれば英語、無ければそのまま。
+  function subCatLabel(ja) {
+    if (!ja) return "";
+    if (lang === "en" && SUBCAT_EN[ja]) return SUBCAT_EN[ja];
+    return ja;
+  }
+
   var lang = detectLang(); // "ja" or "en"
 
   function detectLang() {
@@ -487,7 +515,7 @@
     var catRow = document.createElement("div");
     catRow.className = "d-row";
     catRow.appendChild(box("d-box", catLabel(r.category)));
-    catRow.appendChild(box("d-box", r.subCategory || ""));
+    catRow.appendChild(box("d-box", subCatLabel(r.subCategory)));
     below.appendChild(catRow);
 
     // 中段: 左（フルーティ/甘味度/度数/容量）＋ 右（Position 正方形）
