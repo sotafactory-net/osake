@@ -14,9 +14,7 @@
     "origin": "",
     "alcoholPercent": 0.0,
     "volumeMl": 0,
-    "images": [
-        "b508c638-8593-4708-956b-8a552ca6329f_0.jpg"
-    ],
+    "images": [],
     "janCode": "",
     "ecItems": [
         {
@@ -39,7 +37,7 @@
         }
     ],
     "createdAt": "2026-09-27T00:46:05Z",
-    "updatedAt": "2026-09-29T04:31:56Z",
+    "updatedAt": "2026-09-30T06:46:42Z",
     "deleted": false,
     "deletedAt": ""
 }
