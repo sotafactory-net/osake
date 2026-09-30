@@ -532,6 +532,20 @@
             "thumb": "",
             "updatedAt": "2026-09-30T22:15:30Z",
             "deleted": true
+        },
+        {
+            "id": "42c0e954-e29a-49db-9b42-2a69f52d8fd6",
+            "brand": "（数量限定）缶ワイン サントリー 酸化防止剤無添加のおいしいワイン。スパークリング 香るマスカット 350ml 6本",
+            "rating": 3.0,
+            "date": "2026-10-01",
+            "category": "Sake",
+            "sweetnessDryness": 0.0,
+            "richnessLightness": 0.0,
+            "fruity": 0,
+            "sweetness": 0,
+            "thumb": "",
+            "updatedAt": "2026-09-30T22:43:39Z",
+            "deleted": false
         }
     ]
 }
