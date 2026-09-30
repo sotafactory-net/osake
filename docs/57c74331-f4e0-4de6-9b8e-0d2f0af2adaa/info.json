@@ -1,0 +1,26 @@
+{
+    "id": "57c74331-f4e0-4de6-9b8e-0d2f0af2adaa",
+    "brand": "ねこ",
+    "rating": 4.5,
+    "date": "2026-09-18",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "57c74331-f4e0-4de6-9b8e-0d2f0af2adaa.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T01:48:31Z",
+    "updatedAt": "2026-09-27T01:48:31Z",
+    "deleted": false,
+    "deletedAt": ""
+}
