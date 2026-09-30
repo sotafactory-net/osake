@@ -1,0 +1,45 @@
+{
+    "id": "129b0162-1cfb-4f41-9f5b-0393a060f994",
+    "brand": "鈴鹿川",
+    "rating": 4.5,
+    "date": "2026-09-28",
+    "sweetnessDryness": -0.21026182174682617,
+    "richnessLightness": 0.259655237197876,
+    "fruity": 0,
+    "sweetness": 1,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米吟醸",
+    "origin": "",
+    "alcoholPercent": 15.5,
+    "volumeMl": 0,
+    "images": [
+        "129b0162-1cfb-4f41-9f5b-0393a060f994_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 2090,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s9evo.euhkmaa8.g00s9evo.euhkneb0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsake-mie%2Fsuzukagawa-jungin-720%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsake-mie%2Fi%2F10000146%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sake-mie/cabinet/zaku/suzuka/suzuka-jungin2022-01.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 2090,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjizake-mie%2Fsuzukagawa-jungin-720.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/jizake-mie_suzukagawa-jungin-720"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e9%88%b4%e9%b9%bf%e5%b7%9d",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-09-27T19:39:48Z",
+    "updatedAt": "2026-09-29T13:52:27Z",
+    "deleted": false,
+    "deletedAt": ""
+}
