@@ -1,0 +1,27 @@
+{
+    "id": "7d33d3be-3c18-4c67-8dcb-d84a1b0382cf",
+    "brand": "aaaaa",
+    "rating": 0.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": -1,
+    "sweetness": 3,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "7d33d3be-3c18-4c67-8dcb-d84a1b0382cf_0.jpg",
+        "7d33d3be-3c18-4c67-8dcb-d84a1b0382cf_1.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T11:45:51Z",
+    "updatedAt": "2026-09-29T04:58:45Z",
+    "deleted": false,
+    "deletedAt": ""
+}
