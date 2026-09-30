@@ -3,8 +3,8 @@
     "brand": "特撰國盛 彩華 大吟醸 720ml / 日本酒 日本酒 中埜酒造 國盛 お酒 辛口 大吟醸酒 地酒 食中酒",
     "rating": 5.0,
     "date": "2026-09-30",
-    "sweetnessDryness": 0.0,
-    "richnessLightness": 0.0,
+    "sweetnessDryness": 0.3367506265640259,
+    "richnessLightness": 0.4459134340286255,
     "fruity": 4,
     "sweetness": 0,
     "place": "",
@@ -39,7 +39,7 @@
         }
     ],
     "createdAt": "2026-09-29T22:21:08Z",
-    "updatedAt": "2026-09-30T13:49:20Z",
+    "updatedAt": "2026-09-30T13:52:10Z",
     "deleted": false,
     "deletedAt": ""
 }
