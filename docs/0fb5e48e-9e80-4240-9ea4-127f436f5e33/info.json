@@ -1,0 +1,26 @@
+{
+    "id": "0fb5e48e-9e80-4240-9ea4-127f436f5e33",
+    "brand": "濃いやつ",
+    "rating": 0.0,
+    "date": "2026-09-27",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sour",
+    "subCategory": "レモン",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "0fb5e48e-9e80-4240-9ea4-127f436f5e33_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-09-27T11:19:47Z",
+    "updatedAt": "2026-09-28T17:00:00Z",
+    "deleted": false,
+    "deletedAt": ""
+}
