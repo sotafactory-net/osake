@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osake - お酒の記録</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="toolbar">
+    <div class="toolbar-row">
+      <select id="filter-category" class="dropdown" aria-label="カテゴリ / Category"></select>
+      <select id="filter-rating" class="dropdown" aria-label="評価 / Rating"></select>
+    </div>
+    <div class="toolbar-row">
+      <select id="filter-sort" class="dropdown" aria-label="ソート順 / Sort"></select>
+      <select id="filter-page" class="dropdown" aria-label="表示件数 / Items"></select>
+      <select id="filter-lang" class="dropdown dropdown-lang" aria-label="言語 / Language"></select>
+    </div>
+  </header>
+
+  <main>
+    <!-- ポジションマップ（アコーディオン） -->
+    <section class="accordion" id="acc-position">
+      <button class="acc-header" data-target="position-body">
+        <span class="acc-title" id="acc-title-position">ポジション</span><span class="acc-arrow">▽</span>
+      </button>
+      <div class="acc-body" id="position-body">
+        <div class="map" id="position-map">
+          <span class="axis axis-top" id="pos-axis-top">濃醇</span>
+          <span class="axis axis-bottom" id="pos-axis-bottom">淡麗</span>
+          <span class="axis axis-left" id="pos-axis-left">辛口</span>
+          <span class="axis axis-right" id="pos-axis-right">甘口</span>
+          <div class="plot" id="position-plot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 味わいマップ（アコーディオン） -->
+    <section class="accordion" id="acc-taste">
+      <button class="acc-header" data-target="taste-body">
+        <span class="acc-title" id="acc-title-taste">味わい</span><span class="acc-arrow">▽</span>
+      </button>
+      <div class="acc-body" id="taste-body">
+        <div class="map" id="taste-map">
+          <span class="axis axis-top" id="taste-axis-top">フルーティ高</span>
+          <span class="axis axis-bottom" id="taste-axis-bottom">フルーティ低</span>
+          <span class="axis axis-left" id="taste-axis-left">甘味度 低</span>
+          <span class="axis axis-right" id="taste-axis-right">甘味度 高</span>
+          <div class="plot" id="taste-plot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- カードグリッド -->
+    <section id="cards" class="cards"></section>
+
+    <div id="status" class="status"></div>
+
+    <!-- フッター: アプリへのリンク -->
+    <footer class="app-footer">
+      <a class="app-link" href="https://play.google.com/store/apps/details?id=net.sotafactory.Osake" target="_blank" rel="noopener">
+        <img class="app-icon" src="assets/app_icon.png" alt="Osake">
+        <span class="app-link-text">
+          <span class="app-name" id="footer-name">お酒記録</span>
+          <span class="app-sub" id="footer-sub">Google Play で手に入れよう</span>
+        </span>
+      </a>
+    </footer>
+  </main>
+
+  <!-- 詳細ダイアログ -->
+  <div id="dialog-overlay" class="dialog-overlay" hidden>
+    <div class="dialog" role="dialog" aria-modal="true">
+      <button class="dialog-close" id="dialog-close" aria-label="閉じる / Close">×</button>
+      <div class="dialog-content" id="dialog-content"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
