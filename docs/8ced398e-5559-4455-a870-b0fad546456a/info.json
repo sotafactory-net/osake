@@ -28,10 +28,16 @@
             "price": 2499,
             "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fliquor-boss2%2F02724.html",
             "iconUrl": "https://item-shopping.c.yimg.jp/i/j/liquor-boss2_02724"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=Cola&tag=sotafactory-22",
+            "iconUrl": ""
         }
     ],
     "createdAt": "2026-10-01T04:05:50Z",
-    "updatedAt": "2026-10-01T04:20:24Z",
+    "updatedAt": "2026-10-01T04:21:53Z",
     "deleted": false,
     "deletedAt": ""
 }
