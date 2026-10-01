@@ -1,0 +1,46 @@
+{
+    "id": "bb5713b5-97ec-4fc7-b956-a3f7dbc67a1b",
+    "brand": "スペイン　ロジャー・グラート　カヴァ　ゴールド　ブリュット",
+    "rating": 2.0,
+    "date": "2026-10-02",
+    "sweetnessDryness": -0.3072952628135681,
+    "richnessLightness": -0.3310123085975647,
+    "fruity": -2,
+    "sweetness": -3,
+    "place": "",
+    "comment": "",
+    "category": "Wine",
+    "subCategory": "スパークリング",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 750,
+    "images": [
+        "bb5713b5-97ec-4fc7-b956-a3f7dbc67a1b_0.jpg",
+        "bb5713b5-97ec-4fc7-b956-a3f7dbc67a1b_1.jpg"
+    ],
+    "janCode": "8436577930013",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1880,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s65io.euhkme93.g00s65io.euhkn387/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-concier%2F1ch-00981%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fr-concier%2Fi%2F10006685%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/r-concier/cabinet/items/10305559/1ch-00981-1.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 2003,
+            "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/9362557/",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/rd-lohaco_9362557"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=8436577930013&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T16:31:37Z",
+    "updatedAt": "2026-10-01T16:31:37Z",
+    "deleted": false,
+    "deletedAt": ""
+}
