@@ -630,6 +630,48 @@
             "thumb": "62827b23-4f2e-4eb7-a081-043cf7a6f08d_0.jpg",
             "updatedAt": "2026-10-01T16:15:31Z",
             "deleted": false
+        },
+        {
+            "id": "75af4736-cfae-4836-90a6-e2984b67f878",
+            "brand": "old monk",
+            "rating": 4.0,
+            "date": "2026-10-02",
+            "category": "Other",
+            "sweetnessDryness": 0.5190880298614502,
+            "richnessLightness": 0.41568124294281006,
+            "fruity": 0,
+            "sweetness": 0,
+            "thumb": "75af4736-cfae-4836-90a6-e2984b67f878_0.jpg",
+            "updatedAt": "2026-10-01T16:25:52Z",
+            "deleted": false
+        },
+        {
+            "id": "bb5713b5-97ec-4fc7-b956-a3f7dbc67a1b",
+            "brand": "スペイン　ロジャー・グラート　カヴァ　ゴールド　ブリュット",
+            "rating": 2.0,
+            "date": "2026-10-02",
+            "category": "Wine",
+            "sweetnessDryness": -0.3072952628135681,
+            "richnessLightness": -0.3310123085975647,
+            "fruity": -2,
+            "sweetness": -3,
+            "thumb": "bb5713b5-97ec-4fc7-b956-a3f7dbc67a1b_0.jpg",
+            "updatedAt": "2026-10-01T16:31:37Z",
+            "deleted": false
+        },
+        {
+            "id": "ddd0a933-80ec-49f0-916c-ed8c1b6b15c3",
+            "brand": "chateau tour du haut moulin",
+            "rating": 2.0,
+            "date": "2026-10-02",
+            "category": "Sake",
+            "sweetnessDryness": -0.32968753576278687,
+            "richnessLightness": -0.2893216609954834,
+            "fruity": -1,
+            "sweetness": -2,
+            "thumb": "ddd0a933-80ec-49f0-916c-ed8c1b6b15c3_0.jpg",
+            "updatedAt": "2026-10-01T16:33:32Z",
+            "deleted": false
         }
     ]
 }
