@@ -1,0 +1,41 @@
+{
+    "id": "75af4736-cfae-4836-90a6-e2984b67f878",
+    "brand": "old monk",
+    "rating": 4.0,
+    "date": "2026-10-02",
+    "sweetnessDryness": 0.5190880298614502,
+    "richnessLightness": 0.41568124294281006,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Other",
+    "subCategory": "その他",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "75af4736-cfae-4836-90a6-e2984b67f878_0.jpg",
+        "75af4736-cfae-4836-90a6-e2984b67f878_1.jpg",
+        "75af4736-cfae-4836-90a6-e2984b67f878_2.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 5100,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rev0o.euhkm310.g00rev0o.euhknf4c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Findiaathome%2F_2908%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Findiaathome%2Fi%2F10000557%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/indiaathome/cabinet/03041231/oldmonkrum.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=old+monk&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T16:25:43Z",
+    "updatedAt": "2026-10-01T16:25:52Z",
+    "deleted": false,
+    "deletedAt": ""
+}
