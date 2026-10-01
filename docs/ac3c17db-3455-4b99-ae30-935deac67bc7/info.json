@@ -1,0 +1,34 @@
+{
+    "id": "ac3c17db-3455-4b99-ae30-935deac67bc7",
+    "brand": "旨くち",
+    "rating": 3.0,
+    "date": "2026-10-02",
+    "sweetnessDryness": 0.17360663414001465,
+    "richnessLightness": -0.13305050134658813,
+    "fruity": -1,
+    "sweetness": 2,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 15.0,
+    "volumeMl": 720,
+    "images": [
+        "ac3c17db-3455-4b99-ae30-935deac67bc7_0.jpg",
+        "ac3c17db-3455-4b99-ae30-935deac67bc7_1.jpg"
+    ],
+    "janCode": "4954595178810",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4954595178810&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T23:09:01Z",
+    "updatedAt": "2026-10-01T23:09:01Z",
+    "deleted": false,
+    "deletedAt": ""
+}
