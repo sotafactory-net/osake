@@ -1,0 +1,35 @@
+{
+    "id": "96f82bea-5fff-476e-a4ec-500b5016df90",
+    "brand": "ARESAN",
+    "rating": 3.5,
+    "date": "2026-10-02",
+    "sweetnessDryness": 0.016860246658325195,
+    "richnessLightness": -0.3433119058609009,
+    "fruity": 1,
+    "sweetness": -1,
+    "place": "home",
+    "comment": "good",
+    "category": "Wine",
+    "subCategory": "ロゼ",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "96f82bea-5fff-476e-a4ec-500b5016df90_0.jpg",
+        "96f82bea-5fff-476e-a4ec-500b5016df90_1.jpg",
+        "96f82bea-5fff-476e-a4ec-500b5016df90_2.jpg"
+    ],
+    "janCode": "8436570000676",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=8436570000676&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T16:04:27Z",
+    "updatedAt": "2026-10-01T16:08:08Z",
+    "deleted": false,
+    "deletedAt": ""
+}
