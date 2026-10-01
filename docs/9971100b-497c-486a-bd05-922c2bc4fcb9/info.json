@@ -1,0 +1,35 @@
+{
+    "id": "9971100b-497c-486a-bd05-922c2bc4fcb9",
+    "brand": "風流宴船",
+    "rating": 2.5,
+    "date": "2026-10-02",
+    "sweetnessDryness": -0.19320106506347656,
+    "richnessLightness": -0.18451398611068726,
+    "fruity": -1,
+    "sweetness": -1,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米酒",
+    "origin": "",
+    "alcoholPercent": 15.5,
+    "volumeMl": 720,
+    "images": [
+        "9971100b-497c-486a-bd05-922c2bc4fcb9_0.jpg",
+        "9971100b-497c-486a-bd05-922c2bc4fcb9_1.jpg",
+        "9971100b-497c-486a-bd05-922c2bc4fcb9_2.jpg"
+    ],
+    "janCode": "4512385503060",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4512385503060&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T23:04:38Z",
+    "updatedAt": "2026-10-01T23:04:38Z",
+    "deleted": false,
+    "deletedAt": ""
+}
