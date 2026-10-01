@@ -1,0 +1,395 @@
+:root {
+  --border: #b9b9b9;
+  --marker: #4a86c8;
+  --text: #222;
+  --muted: #666;
+  --bg: #fff;
+  --page-bg: #f7f7f7;
+  --card-line: #ccc;
+  --header-bg: #fafafa;
+  --field: #eee;
+  --star: #e0a800;
+  --overlay: rgba(0,0,0,0.5);
+}
+
+/* ダークモード（端末設定に追従） */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --border: #444;
+    --marker: #5b9be0;
+    --text: #e6e6e6;
+    --muted: #a0a0a0;
+    --bg: #1e1e1e;
+    --page-bg: #141414;
+    --card-line: #3a3a3a;
+    --header-bg: #262626;
+    --field: #2a2a2a;
+    --star: #f0c040;
+    --overlay: rgba(0,0,0,0.7);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  color: var(--text);
+  background: var(--page-bg);
+}
+
+/* ツールバー */
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.toolbar-row {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+.dropdown {
+  flex: 1 1 0;        /* 行内で均等に分配し、狭くても縮む */
+  min-width: 0;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+}
+/* 言語プルダウン（EN/JP）は幅を小さく固定 */
+.dropdown-lang {
+  flex: 0 0 72px;
+  width: 72px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+/* アコーディオン */
+.accordion {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+.acc-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: var(--header-bg);
+  border: none;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--muted);
+}
+.acc-arrow { transition: transform 0.15s; }
+.accordion.collapsed .acc-arrow { transform: rotate(-90deg); }
+.acc-body { padding: 12px; }
+.accordion.collapsed .acc-body { display: none; }
+
+/* マップ */
+.map {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;      /* 日本酒モードと同じ正方形にして高さを揃える */
+  max-width: 440px;
+  margin: 0 auto;
+  border: 1px solid var(--border);
+  background: var(--bg);
+}
+/* 日本酒モード: 4象限画像を背景に敷く。軸ラベルは画像内にあるため隠す */
+.map.sake-mode {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+}
+.map.sake-mode .axis { display: none; }
+.plot { position: absolute; inset: 0; }
+.axis {
+  position: absolute;
+  font-size: 12px;
+  color: var(--muted);
+  transform: translate(-50%, -50%);
+}
+.axis-top { top: 10px; left: 50%; }
+.axis-bottom { bottom: 6px; left: 50%; transform: translate(-50%, 0); }
+.axis-left { left: 4px; top: 50%; transform: translate(0, -50%); }
+.axis-right { right: 4px; top: 50%; transform: translate(0, -50%); }
+
+.marker {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background: var(--marker);
+  color: #fff;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  user-select: none;
+}
+
+/* カードグリッド */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.card-index {
+  font-size: 12px;
+  color: var(--muted);
+  padding: 2px 6px;
+}
+.card-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background: var(--field);
+  display: block;
+}
+.card-photo.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+.card-meta {
+  border-top: 1px solid var(--card-line);
+  padding: 4px 6px;
+  text-align: center;
+}
+.card-rating { color: var(--star); font-size: 14px; letter-spacing: 1px; }
+.card-date { font-size: 12px; color: var(--muted); }
+
+.status { text-align: center; color: var(--muted); padding: 20px; }
+
+/* フッター（アプリへのリンク） */
+.app-footer {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: center;
+}
+.app-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+  text-decoration: none;
+  color: var(--text);
+}
+.app-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: block;
+}
+.app-link-text { display: flex; flex-direction: column; }
+.app-name { font-size: 18px; font-weight: bold; }
+.app-sub { font-size: 13px; color: var(--muted); }
+
+/* ダイアログ */
+.dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--overlay);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-y: auto;
+  padding: 20px;
+  z-index: 100;
+}
+.dialog-overlay[hidden] { display: none; }
+.dialog {
+  background: var(--bg);
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid var(--border);
+  position: relative;
+  padding: 16px;
+  /* ×ボタンの高さ分、上部に余白を確保して写真と重ならないようにする */
+  padding-top: 56px;
+}
+.dialog-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 22px;
+  cursor: pointer;
+  line-height: 1;
+  z-index: 10; /* 写真より前面 */
+}
+.dialog-content > * { margin-bottom: 10px; }
+
+.d-photo-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: 1px solid var(--border);
+  background: var(--field);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.d-photo { width: 100%; height: 100%; object-fit: contain; }
+.d-photo-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  border: none;
+  width: 36px;
+  height: 48px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.d-photo-prev { left: 0; }
+.d-photo-next { right: 0; }
+.d-photo-count {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #fff;
+  background: rgba(0,0,0,0.55);
+  padding: 1px 8px;
+  border-radius: 8px;
+}
+.d-box {
+  border: 1px solid var(--border);
+  padding: 8px;
+  font-size: 14px;
+}
+.d-row { display: flex; gap: 8px; }
+.d-row > .d-box { flex: 1; }
+.d-rating { color: var(--star); font-size: 16px; }
+.d-comment { min-height: 60px; white-space: pre-wrap; }
+
+.d-detail { display: flex; gap: 8px; align-items: stretch; }
+.d-detail-left {
+  flex: 1;                 /* 右のポジションと同じ幅 */
+  display: flex;
+  flex-direction: column;
+  gap: 4px;                /* 行間を詰める */
+  aspect-ratio: 1 / 1;     /* 右のポジションと同じ正方形サイズにする */
+  align-self: flex-start;
+}
+/* 左側の各行を均等に伸ばし、右の正方形と高さを合わせる。フォントは維持しつつ余白を詰める */
+.d-detail-left .d-box {
+  margin-bottom: 0;
+  padding: 4px 8px;        /* 高さを詰める */
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.d-detail-left .d-slider {
+  flex: 1;
+  padding: 4px 8px;
+}
+.d-detail-right {
+  flex: 1;                 /* 左と同じ幅 */
+  position: relative;
+  border: 1px solid var(--border);
+  aspect-ratio: 1 / 1;     /* 正方形 */
+  align-self: flex-start;
+}
+/* 日本酒モード: 4象限画像を背景にし、軸ラベルは隠す */
+.d-detail-right.sake-mode {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+}
+.d-pos-marker {
+  position: absolute;
+  width: 14px; height: 14px;
+  background: #e03030; border-radius: 50%;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  transform: translate(-50%, -50%);
+}
+
+.d-slider {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 4px;
+}
+.d-slider-label { flex: 0 0 3.5em; }   /* ラベル幅を固定してトラック長を揃える */
+.d-slider-track { flex: 1; position: relative; height: 4px; background: var(--card-line); border-radius: 2px; }
+.d-slider-dot { position: absolute; top: 50%; width: 10px; height: 10px; background: var(--marker); border-radius: 50%; transform: translate(-50%, -50%); }
+.d-slider > span:last-child { flex: 0 0 1.6em; text-align: right; }  /* 値(+3等)の幅を固定 */
+
+.d-ec { display: flex; gap: 6px; }
+.d-ec-item {
+  flex: 1;
+  border: 1px solid var(--border);
+  padding: 6px;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--text);
+}
+.d-ec-item img { width: 100%; height: 70px; object-fit: contain; }
+.d-ec-noimg {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  color: var(--muted);
+  background: var(--field);
+  border-radius: 4px;
+}
+.d-ec-title { font-weight: bold; margin-bottom: 4px; }
+.d-ec-price { border-top: 1px solid var(--border); margin-top: 4px; padding-top: 4px; }
+
+/* スマホ幅 */
+@media (max-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
