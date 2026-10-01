@@ -1,0 +1,47 @@
+{
+    "id": "e6801eeb-6c1f-488b-9502-4b7fc2512fa1",
+    "brand": "キリシードル ドライ",
+    "rating": 3.5,
+    "date": "2026-10-02",
+    "sweetnessDryness": 0.3996623754501343,
+    "richnessLightness": 0.36129915714263916,
+    "fruity": 2,
+    "sweetness": 3,
+    "place": "",
+    "comment": "シードル",
+    "category": "Other",
+    "subCategory": "その他",
+    "origin": "",
+    "alcoholPercent": 4.0,
+    "volumeMl": 500,
+    "images": [
+        "e6801eeb-6c1f-488b-9502-4b7fc2512fa1_0.jpg",
+        "e6801eeb-6c1f-488b-9502-4b7fc2512fa1_1.jpg",
+        "e6801eeb-6c1f-488b-9502-4b7fc2512fa1_2.jpg"
+    ],
+    "janCode": "4973480346981",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 499,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pjsko.euhkma0e.g00pjsko.euhkn07c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fricaoh%2F113271%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fricaoh%2Fi%2F10031296%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ricaoh/cabinet/199999/113271_2.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 580,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fliquor-boss1%2F31957b.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/liquor-boss1_31957b"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4973480346981&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T23:11:18Z",
+    "updatedAt": "2026-10-01T23:11:18Z",
+    "deleted": false,
+    "deletedAt": ""
+}
