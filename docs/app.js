@@ -35,7 +35,7 @@
       "d.fruity": "果実度", "d.sweetness": "甘味度",
       "d.alcohol": "度数: {0} %", "d.volume": "容量: {0} ml", "d.volumeNone": "容量: -",
       "d.origin": "産地: {0}", "d.untitled": "(無題)", "d.noImage": "No Image",
-      "ec.noPrice": "-",
+      "ec.noPrice": "-", "ec.amazonSearch": "Amazonで検索", "ec.view": "見る",
       "status.loading": "読み込み中...", "status.empty": "該当する記録がありません",
       "status.loadFail": "データの読み込みに失敗しました: {0}",
       "app.name": "お酒記録",
@@ -56,7 +56,7 @@
       "d.fruity": "Fruity", "d.sweetness": "Sweet",
       "d.alcohol": "ABV: {0} %", "d.volume": "Volume: {0} ml", "d.volumeNone": "Volume: -",
       "d.origin": "Origin: {0}", "d.untitled": "(Untitled)", "d.noImage": "No Image",
-      "ec.noPrice": "-",
+      "ec.noPrice": "-", "ec.amazonSearch": "Search on Amazon", "ec.view": "View",
       "status.loading": "Loading...", "status.empty": "No records found",
       "status.loadFail": "Failed to load data: {0}",
       "app.name": "Drink Log",
@@ -648,22 +648,45 @@
       title.textContent = EC_TITLES[p] || p;
       a.appendChild(title);
 
+      var hasPrice = it.price > 0;
+
       if (it.iconUrl) {
         var img = document.createElement("img");
         img.src = it.iconUrl;
         img.alt = p;
-        img.onerror = function () { img.style.display = "none"; };
+        // 画像が読めなかった場合はプレースホルダに差し替える（アイコンが出ない不具合対策）。
+        img.onerror = function () {
+          var ph = ecPlaceholder(p, hasPrice);
+          if (img.parentNode) img.parentNode.replaceChild(ph, img);
+        };
         a.appendChild(img);
+      } else {
+        // iconUrl 無し（Amazon申請中など）→ プレースホルダを表示。
+        a.appendChild(ecPlaceholder(p, hasPrice));
       }
 
       var price = document.createElement("div");
       price.className = "d-ec-price";
-      price.textContent = it.price > 0 ? "¥" + Number(it.price).toLocaleString() : t("ec.noPrice");
+      // 価格があれば金額、無ければ「見る/検索」の案内。
+      if (hasPrice) {
+        price.textContent = "¥" + Number(it.price).toLocaleString();
+      } else {
+        price.textContent = (p === "Amazon") ? t("ec.amazonSearch") : t("ec.view");
+      }
       a.appendChild(price);
 
       wrap.appendChild(a);
     });
     return wrap;
+  }
+
+  // EC画像が無い/読めないときの代替表示（画像枠と同じ高さの箱）。
+  function ecPlaceholder(provider, hasPrice) {
+    var ph = document.createElement("div");
+    ph.className = "d-ec-noimg";
+    // Amazon申請中などアイコンが無い場合の案内文。
+    ph.textContent = (provider === "Amazon" && !hasPrice) ? t("ec.amazonSearch") : t("ec.view");
+    return ph;
   }
 
   // ---- UIヘルパ ----
