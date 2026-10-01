@@ -1,0 +1,46 @@
+{
+    "id": "eab5b9e8-2769-4a70-bae0-92bb6a58bd0f",
+    "brand": "freschello vino bianco",
+    "rating": 3.0,
+    "date": "2026-10-02",
+    "sweetnessDryness": -0.19853252172470093,
+    "richnessLightness": -0.045867204666137695,
+    "fruity": -1,
+    "sweetness": -2,
+    "place": "",
+    "comment": "",
+    "category": "Wine",
+    "subCategory": "白",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 750,
+    "images": [
+        "eab5b9e8-2769-4a70-bae0-92bb6a58bd0f_0.jpg",
+        "eab5b9e8-2769-4a70-bae0-92bb6a58bd0f_1.jpg"
+    ],
+    "janCode": "8008900060331",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 9310,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rki5o.euhkma07.g00rki5o.euhkne65/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsyuraku-shop%2F208408x12%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsyuraku-shop%2Fi%2F10010065%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/syuraku-shop/cabinet/item07/208408x12_01.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 9310,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsyurakushop%2F208408x12.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/syurakushop_208408x12"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=8008900060331&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T16:06:13Z",
+    "updatedAt": "2026-10-01T16:07:52Z",
+    "deleted": false,
+    "deletedAt": ""
+}
