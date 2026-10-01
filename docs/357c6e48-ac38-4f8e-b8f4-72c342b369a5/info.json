@@ -1,0 +1,35 @@
+{
+    "id": "357c6e48-ac38-4f8e-b8f4-72c342b369a5",
+    "brand": "baldobbiadene",
+    "rating": 3.0,
+    "date": "2026-10-02",
+    "sweetnessDryness": 0.0787057876586914,
+    "richnessLightness": -0.4232785105705261,
+    "fruity": 1,
+    "sweetness": 1,
+    "place": "",
+    "comment": "",
+    "category": "Wine",
+    "subCategory": "スパークリング",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "357c6e48-ac38-4f8e-b8f4-72c342b369a5_0.jpg",
+        "357c6e48-ac38-4f8e-b8f4-72c342b369a5_1.jpg",
+        "357c6e48-ac38-4f8e-b8f4-72c342b369a5_2.jpg"
+    ],
+    "janCode": "4901880894740",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4901880894740&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T23:17:09Z",
+    "updatedAt": "2026-10-01T23:17:09Z",
+    "deleted": false,
+    "deletedAt": ""
+}
