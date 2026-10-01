@@ -1,7 +1,7 @@
 {
     "id": "96f82bea-5fff-476e-a4ec-500b5016df90",
     "brand": "ARESAN",
-    "rating": 3.5,
+    "rating": 3.0,
     "date": "2026-10-02",
     "sweetnessDryness": 0.016860246658325195,
     "richnessLightness": -0.3433119058609009,
@@ -29,7 +29,7 @@
         }
     ],
     "createdAt": "2026-10-01T16:04:27Z",
-    "updatedAt": "2026-10-01T16:08:08Z",
+    "updatedAt": "2026-10-01T23:07:21Z",
     "deleted": false,
     "deletedAt": ""
 }
