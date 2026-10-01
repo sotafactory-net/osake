@@ -1,0 +1,46 @@
+{
+    "id": "655bc4f4-1971-4e88-a692-be2be27345dd",
+    "brand": "鈴鹿川 純米吟醸 ７５０ｍｌ/三重県 清水清三郎商店",
+    "rating": 4.5,
+    "date": "2026-10-02",
+    "sweetnessDryness": 0.13841867446899414,
+    "richnessLightness": -0.1136178970336914,
+    "fruity": 2,
+    "sweetness": 1,
+    "place": "実家",
+    "comment": "フルーティーで飲みやすくマスカットのような香り",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 15.0,
+    "volumeMl": 720,
+    "images": [
+        "655bc4f4-1971-4e88-a692-be2be27345dd_0.jpg",
+        "655bc4f4-1971-4e88-a692-be2be27345dd_1.jpg"
+    ],
+    "janCode": "4983422152136",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 2090,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s9evo.euhkmaa8.g00s9evo.euhkneb0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsake-mie%2Fsuzukagawa-jungin-720%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsake-mie%2Fi%2F10000146%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sake-mie/cabinet/zaku/suzuka/suzuka-jungin2022-01.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 2090,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnagoya-8848%2F7-3-45.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/nagoya-8848_7-3-45"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4983422152136&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T23:25:30Z",
+    "updatedAt": "2026-10-01T23:30:28Z",
+    "deleted": false,
+    "deletedAt": ""
+}
