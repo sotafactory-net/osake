@@ -1,0 +1,47 @@
+{
+    "id": "0e6ef7fd-23c4-4f73-9b3f-7090294c3e43",
+    "brand": "日本盛",
+    "rating": 3.0,
+    "date": "2026-10-02",
+    "sweetnessDryness": 0.3516789674758911,
+    "richnessLightness": 0.06359589099884033,
+    "fruity": 1,
+    "sweetness": 1,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 15.0,
+    "volumeMl": 720,
+    "images": [
+        "0e6ef7fd-23c4-4f73-9b3f-7090294c3e43_0.jpg",
+        "0e6ef7fd-23c4-4f73-9b3f-7090294c3e43_1.jpg",
+        "0e6ef7fd-23c4-4f73-9b3f-7090294c3e43_2.jpg"
+    ],
+    "janCode": "4904070063681",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1370,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pukwo.euhkmbcc.g00pukwo.euhkn048/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4904070063681-75-30002629-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14261912%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0317/4904070063681.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1543,
+            "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/xw28924/",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/rd-lohaco_xw28924"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4904070063681&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T23:07:08Z",
+    "updatedAt": "2026-10-01T23:07:08Z",
+    "deleted": false,
+    "deletedAt": ""
+}
