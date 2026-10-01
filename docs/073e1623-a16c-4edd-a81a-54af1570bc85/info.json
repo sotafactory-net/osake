@@ -1,0 +1,47 @@
+{
+    "id": "073e1623-a16c-4edd-a81a-54af1570bc85",
+    "brand": "白ワイン イタリア テッラ ダリージ ビアンコ",
+    "rating": 2.5,
+    "date": "2026-10-02",
+    "sweetnessDryness": 0.19066739082336426,
+    "richnessLightness": -0.2818753719329834,
+    "fruity": 0,
+    "sweetness": -2,
+    "place": "",
+    "comment": "",
+    "category": "Wine",
+    "subCategory": "ロゼ",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 750,
+    "images": [
+        "073e1623-a16c-4edd-a81a-54af1570bc85_0.jpg",
+        "073e1623-a16c-4edd-a81a-54af1570bc85_1.jpg",
+        "073e1623-a16c-4edd-a81a-54af1570bc85_2.jpg"
+    ],
+    "janCode": "4580537847447",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1408,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q8iso.euhkm7bf.g00q8iso.euhkn57b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fledled%2F1-td-dbianco%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fledled%2Fi%2F10018338%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ledled/cabinet//img329/1-td-dbianco_s.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1408,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fe-felicity%2F1-td-dbianco.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/e-felicity_1-td-dbianco"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4580537847447&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T23:02:25Z",
+    "updatedAt": "2026-10-01T23:02:25Z",
+    "deleted": false,
+    "deletedAt": ""
+}
