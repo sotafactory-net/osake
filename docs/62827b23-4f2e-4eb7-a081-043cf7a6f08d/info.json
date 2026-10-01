@@ -1,0 +1,47 @@
+{
+    "id": "62827b23-4f2e-4eb7-a081-043cf7a6f08d",
+    "brand": "純米大吟醸　北秋田",
+    "rating": 4.0,
+    "date": "2026-10-02",
+    "sweetnessDryness": -0.36594176292419434,
+    "richnessLightness": 0.08249330520629883,
+    "fruity": -1,
+    "sweetness": -2,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "62827b23-4f2e-4eb7-a081-043cf7a6f08d_0.jpg",
+        "62827b23-4f2e-4eb7-a081-043cf7a6f08d_1.jpg",
+        "62827b23-4f2e-4eb7-a081-043cf7a6f08d_2.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 3278,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rvbho.euhkm8e5.g00rvbho.euhkn01a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsake-sugita%2F11440102606%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsake-sugita%2Fi%2F10008185%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sake-sugita/cabinet/11/imgrc0105415475.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1540,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkuji-gen%2Fkitaakita-zyundai.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/kuji-gen_kitaakita-zyundai"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e7%b4%94%e7%b1%b3%e5%a4%a7%e5%90%9f%e9%86%b8%e3%80%80%e5%8c%97%e7%a7%8b%e7%94%b0&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T16:15:24Z",
+    "updatedAt": "2026-10-01T16:15:31Z",
+    "deleted": false,
+    "deletedAt": ""
+}
