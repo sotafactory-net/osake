@@ -1,0 +1,34 @@
+{
+    "id": "ddd0a933-80ec-49f0-916c-ed8c1b6b15c3",
+    "brand": "chateau tour du haut moulin",
+    "rating": 2.0,
+    "date": "2026-10-02",
+    "sweetnessDryness": -0.32968753576278687,
+    "richnessLightness": -0.2893216609954834,
+    "fruity": -1,
+    "sweetness": -2,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "ddd0a933-80ec-49f0-916c-ed8c1b6b15c3_0.jpg",
+        "ddd0a933-80ec-49f0-916c-ed8c1b6b15c3_1.jpg"
+    ],
+    "janCode": "4571638861845",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4571638861845&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T16:33:32Z",
+    "updatedAt": "2026-10-01T16:33:32Z",
+    "deleted": false,
+    "deletedAt": ""
+}
