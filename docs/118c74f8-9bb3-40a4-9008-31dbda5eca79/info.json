@@ -1,0 +1,35 @@
+{
+    "id": "118c74f8-9bb3-40a4-9008-31dbda5eca79",
+    "brand": "絹の雫　にごり",
+    "rating": 3.0,
+    "date": "2026-10-02",
+    "sweetnessDryness": 0.18960106372833252,
+    "richnessLightness": 0.11037492752075195,
+    "fruity": 2,
+    "sweetness": 3,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 720.0,
+    "volumeMl": 12,
+    "images": [
+        "118c74f8-9bb3-40a4-9008-31dbda5eca79_0.jpg",
+        "118c74f8-9bb3-40a4-9008-31dbda5eca79_1.jpg",
+        "118c74f8-9bb3-40a4-9008-31dbda5eca79_2.jpg"
+    ],
+    "janCode": "4978526006249",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4978526006249&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-01T23:20:57Z",
+    "updatedAt": "2026-10-01T23:20:57Z",
+    "deleted": false,
+    "deletedAt": ""
+}
