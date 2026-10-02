@@ -11,7 +11,7 @@
     "comment": "フルーティーで飲みやすくマスカットのような香り",
     "category": "Sake",
     "subCategory": "純米大吟醸",
-    "origin": "",
+    "origin": "三重県",
     "alcoholPercent": 15.0,
     "volumeMl": 720,
     "images": [
@@ -40,7 +40,7 @@
         }
     ],
     "createdAt": "2026-10-01T23:25:30Z",
-    "updatedAt": "2026-10-01T23:30:28Z",
+    "updatedAt": "2026-10-02T03:38:08Z",
     "deleted": false,
     "deletedAt": ""
 }
