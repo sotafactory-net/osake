@@ -1,0 +1,35 @@
+{
+    "id": "a2035c1c-2b3f-4d6a-be72-f09c3d46849b",
+    "brand": "TERRE VERDIANE",
+    "rating": 4.0,
+    "date": "2026-10-03",
+    "sweetnessDryness": -0.24864870309829712,
+    "richnessLightness": 0.3053557872772217,
+    "fruity": 1,
+    "sweetness": -1,
+    "place": "",
+    "comment": "",
+    "category": "Wine",
+    "subCategory": "スパークリング",
+    "origin": "italy",
+    "alcoholPercent": 8.5,
+    "volumeMl": 750,
+    "images": [
+        "a2035c1c-2b3f-4d6a-be72-f09c3d46849b_0.jpg",
+        "a2035c1c-2b3f-4d6a-be72-f09c3d46849b_1.jpg",
+        "a2035c1c-2b3f-4d6a-be72-f09c3d46849b_2.jpg"
+    ],
+    "janCode": "4000296004177",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4000296004177&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-02T22:34:19Z",
+    "updatedAt": "2026-10-02T22:36:10Z",
+    "deleted": false,
+    "deletedAt": ""
+}
