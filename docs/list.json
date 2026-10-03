@@ -236,21 +236,21 @@
             "fruity": 2,
             "sweetness": 1,
             "thumb": "655bc4f4-1971-4e88-a692-be2be27345dd_0.jpg",
-            "updatedAt": "2026-10-02T03:38:08Z",
+            "updatedAt": "2026-10-03T12:28:20Z",
             "deleted": false
         },
         {
             "id": "a2035c1c-2b3f-4d6a-be72-f09c3d46849b",
             "brand": "TERRE VERDIANE",
-            "rating": 4.0,
+            "rating": 4.5,
             "date": "2026-10-03",
             "category": "Wine",
             "sweetnessDryness": -0.24864870309829712,
             "richnessLightness": 0.3053557872772217,
-            "fruity": 1,
-            "sweetness": -1,
+            "fruity": 2,
+            "sweetness": 1,
             "thumb": "a2035c1c-2b3f-4d6a-be72-f09c3d46849b_0.jpg",
-            "updatedAt": "2026-10-02T22:36:10Z",
+            "updatedAt": "2026-10-03T12:25:25Z",
             "deleted": false
         }
     ],
