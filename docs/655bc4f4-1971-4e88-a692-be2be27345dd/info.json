@@ -7,7 +7,7 @@
     "richnessLightness": -0.1136178970336914,
     "fruity": 2,
     "sweetness": 1,
-    "place": "実家",
+    "place": "スーパーで買って自宅で飲んだ",
     "comment": "フルーティーで飲みやすくマスカットのような香り",
     "category": "Sake",
     "subCategory": "純米大吟醸",
@@ -40,7 +40,7 @@
         }
     ],
     "createdAt": "2026-10-01T23:25:30Z",
-    "updatedAt": "2026-10-02T03:38:08Z",
+    "updatedAt": "2026-10-03T12:28:20Z",
     "deleted": false,
     "deletedAt": ""
 }
