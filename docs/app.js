@@ -147,6 +147,7 @@
         return res.json();
       })
       .then(function (lf) {
+        applySiteTitle(lf && lf.title);
         var items = (lf && lf.items) ? lf.items : [];
         allItems = items.filter(function (r) { return r && !r.deleted; });
         setStatus("");
@@ -155,6 +156,17 @@
       .catch(function (e) {
         setStatus(tf("status.loadFail", e.message));
       });
+  }
+
+  // Webサイトのタイトル（アプリの設定画面で入力し list.json に入る）を表示する。
+  // XSS 対策のため textContent で入れる。空なら要素ごと隠して余白も出さない。
+  function applySiteTitle(text) {
+    var s = (typeof text === "string") ? text.trim() : "";
+    var el = document.getElementById("site-title");
+    if (!el) return;
+    el.textContent = s;
+    el.hidden = !s;
+    if (s) document.title = s; // ブラウザのタブ名もタイトルにする
   }
 
   // 言語プルダウン（EN/JP）。切替時に全文言を作り直す。
@@ -298,10 +310,9 @@
     }
   }
 
-  // 端末言語で日本語/英語の4象限画像URLを返す。
+  // 表示言語（JP/ENプルダウン）に合わせて日本語/英語の4象限画像URLを返す。
   function positionImageUrl() {
-    var ja = (navigator.language || "").toLowerCase().indexOf("ja") === 0;
-    return ja ? "assets/position_sake.png" : "assets/position_sake_en.png";
+    return lang === "ja" ? "assets/position_sake.png" : "assets/position_sake_en.png";
   }
 
   function compareBy(a, b, key, asc) {
