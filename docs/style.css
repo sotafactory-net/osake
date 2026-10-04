@@ -55,6 +55,17 @@ body {
   gap: 8px;
   width: 100%;
 }
+/* Webサイトのタイトル（Date / Items の下）。空なら hidden で非表示 */
+.site-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text);
+  text-align: center;
+  line-height: 1.3;
+  word-break: break-word;
+}
+.site-title[hidden] { display: none; }
 .dropdown {
   flex: 1 1 0;        /* 行内で均等に分配し、狭くても縮む */
   min-width: 0;
