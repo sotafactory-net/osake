@@ -1,12 +1,12 @@
 {
     "id": "0e6ef7fd-23c4-4f73-9b3f-7090294c3e43",
     "brand": "日本盛",
-    "rating": 3.0,
+    "rating": 4.0,
     "date": "2026-10-02",
     "sweetnessDryness": 0.3516789674758911,
     "richnessLightness": 0.06359589099884033,
-    "fruity": 1,
-    "sweetness": 1,
+    "fruity": 2,
+    "sweetness": 2,
     "place": "",
     "comment": "",
     "category": "Sake",
@@ -41,7 +41,7 @@
         }
     ],
     "createdAt": "2026-10-01T23:07:08Z",
-    "updatedAt": "2026-10-01T23:07:08Z",
+    "updatedAt": "2026-10-04T08:18:41Z",
     "deleted": false,
     "deletedAt": ""
 }
