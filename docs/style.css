@@ -55,7 +55,7 @@ body {
   gap: 8px;
   width: 100%;
 }
-/* Webサイトのタイトル（Date / Items の下）。空なら hidden で非表示 */
+/* Webサイトのタイトル（ツールバーの一番上、カテゴリ/評価の上）。空なら hidden で非表示 */
 .site-title {
   margin: 0;
   font-size: 18px;
