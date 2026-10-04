@@ -1,0 +1,47 @@
+{
+    "id": "336296bc-5b2b-4a8e-8a26-8343fc5008c9",
+    "brand": "虹水 KOSUI",
+    "rating": 4.0,
+    "date": "2026-10-04",
+    "sweetnessDryness": 0.39006567001342773,
+    "richnessLightness": -0.030918359756469727,
+    "fruity": 1,
+    "sweetness": 2,
+    "place": "刈谷の酒屋",
+    "comment": "シュワシュワ系",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "岩手",
+    "alcoholPercent": 14.0,
+    "volumeMl": 720,
+    "images": [
+        "336296bc-5b2b-4a8e-8a26-8343fc5008c9_0.jpg",
+        "336296bc-5b2b-4a8e-8a26-8343fc5008c9_1.jpg",
+        "336296bc-5b2b-4a8e-8a26-8343fc5008c9_2.jpg"
+    ],
+    "janCode": "4953676062246",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1870,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pmrfo.euhkmc98.g00pmrfo.euhkn924/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fb-bear%2F020152%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fb-bear%2Fi%2F10010604%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/b-bear/cabinet/cago/020152.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1870,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fizumise%2F020152.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/izumise_020152"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4953676062246&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-04T10:53:44Z",
+    "updatedAt": "2026-10-04T10:53:54Z",
+    "deleted": false,
+    "deletedAt": ""
+}
