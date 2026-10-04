@@ -3,8 +3,8 @@
     "brand": "日本盛",
     "rating": 4.0,
     "date": "2026-10-02",
-    "sweetnessDryness": 0.3516789674758911,
-    "richnessLightness": 0.06359589099884033,
+    "sweetnessDryness": 0.5041599273681641,
+    "richnessLightness": 0.1612159013748169,
     "fruity": 2,
     "sweetness": 2,
     "place": "",
@@ -41,7 +41,7 @@
         }
     ],
     "createdAt": "2026-10-01T23:07:08Z",
-    "updatedAt": "2026-10-04T08:18:41Z",
+    "updatedAt": "2026-10-04T08:21:16Z",
     "deleted": false,
     "deletedAt": ""
 }
