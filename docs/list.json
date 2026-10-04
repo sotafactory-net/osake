@@ -133,12 +133,12 @@
             "rating": 4.0,
             "date": "2026-10-02",
             "category": "Sake",
-            "sweetnessDryness": 0.3516789674758911,
-            "richnessLightness": 0.06359589099884033,
+            "sweetnessDryness": 0.5041599273681641,
+            "richnessLightness": 0.1612159013748169,
             "fruity": 2,
             "sweetness": 2,
             "thumb": "0e6ef7fd-23c4-4f73-9b3f-7090294c3e43_0.jpg",
-            "updatedAt": "2026-10-04T08:18:41Z",
+            "updatedAt": "2026-10-04T08:21:16Z",
             "deleted": false
         },
         {
@@ -208,7 +208,7 @@
             "fruity": 2,
             "sweetness": 3,
             "thumb": "118c74f8-9bb3-40a4-9008-31dbda5eca79_0.jpg",
-            "updatedAt": "2026-10-01T23:20:57Z",
+            "updatedAt": "2026-10-04T08:25:31Z",
             "deleted": false
         },
         {
@@ -251,6 +251,20 @@
             "sweetness": 1,
             "thumb": "a2035c1c-2b3f-4d6a-be72-f09c3d46849b_0.jpg",
             "updatedAt": "2026-10-03T12:25:25Z",
+            "deleted": false
+        },
+        {
+            "id": "336296bc-5b2b-4a8e-8a26-8343fc5008c9",
+            "brand": "虹水 KOSUI",
+            "rating": 4.0,
+            "date": "2026-10-04",
+            "category": "Sake",
+            "sweetnessDryness": 0.39006567001342773,
+            "richnessLightness": -0.030918359756469727,
+            "fruity": 1,
+            "sweetness": 2,
+            "thumb": "336296bc-5b2b-4a8e-8a26-8343fc5008c9_0.jpg",
+            "updatedAt": "2026-10-04T10:53:54Z",
             "deleted": false
         }
     ],
