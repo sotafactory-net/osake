@@ -266,6 +266,20 @@
             "thumb": "336296bc-5b2b-4a8e-8a26-8343fc5008c9_0.jpg",
             "updatedAt": "2026-10-05T03:43:22Z",
             "deleted": false
+        },
+        {
+            "id": "5709dee9-5098-4090-bbf6-4abd947abaf8",
+            "brand": "日本盛 純米大吟醸 生酒 720ml(純米大吟醸酒) 日本盛 返品種別B",
+            "rating": 4.0,
+            "date": "2026-10-05",
+            "category": "Sake",
+            "sweetnessDryness": 0.0,
+            "richnessLightness": 0.0,
+            "fruity": 0,
+            "sweetness": 0,
+            "thumb": "5709dee9-5098-4090-bbf6-4abd947abaf8_0.jpg",
+            "updatedAt": "2026-10-05T04:09:21Z",
+            "deleted": false
         }
     ],
     "purged": [
