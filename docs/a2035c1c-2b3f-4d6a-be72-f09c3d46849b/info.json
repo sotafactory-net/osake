@@ -3,8 +3,8 @@
     "brand": "TERRE VERDIANE",
     "rating": 4.5,
     "date": "2026-10-03",
-    "sweetnessDryness": -0.24864870309829712,
-    "richnessLightness": 0.3053557872772217,
+    "sweetnessDryness": 0.26,
+    "richnessLightness": 0.38,
     "fruity": 2,
     "sweetness": 1,
     "place": "",
@@ -29,7 +29,7 @@
         }
     ],
     "createdAt": "2026-10-02T22:34:19Z",
-    "updatedAt": "2026-10-03T12:25:25Z",
+    "updatedAt": "2026-10-05T03:44:16Z",
     "deleted": false,
     "deletedAt": ""
 }
