@@ -245,12 +245,12 @@
             "rating": 4.5,
             "date": "2026-10-03",
             "category": "Wine",
-            "sweetnessDryness": -0.24864870309829712,
-            "richnessLightness": 0.3053557872772217,
+            "sweetnessDryness": 0.26,
+            "richnessLightness": 0.38,
             "fruity": 2,
             "sweetness": 1,
             "thumb": "a2035c1c-2b3f-4d6a-be72-f09c3d46849b_0.jpg",
-            "updatedAt": "2026-10-03T12:25:25Z",
+            "updatedAt": "2026-10-05T03:44:16Z",
             "deleted": false
         },
         {
