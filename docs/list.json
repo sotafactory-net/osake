@@ -58,20 +58,6 @@
             "deleted": false
         },
         {
-            "id": "75af4736-cfae-4836-90a6-e2984b67f878",
-            "brand": "old monk",
-            "rating": 4.0,
-            "date": "2026-10-02",
-            "category": "Other",
-            "sweetnessDryness": 0.5190880298614502,
-            "richnessLightness": 0.41568124294281006,
-            "fruity": 0,
-            "sweetness": 0,
-            "thumb": "75af4736-cfae-4836-90a6-e2984b67f878_0.jpg",
-            "updatedAt": "2026-10-05T12:36:01Z",
-            "deleted": false
-        },
-        {
             "id": "bb5713b5-97ec-4fc7-b956-a3f7dbc67a1b",
             "brand": "スペイン　ロジャー・グラート　カヴァ　ゴールド　ブリュット",
             "rating": 2.0,
@@ -279,6 +265,20 @@
             "sweetness": 0,
             "thumb": "5709dee9-5098-4090-bbf6-4abd947abaf8_0.jpg",
             "updatedAt": "2026-10-05T04:09:21Z",
+            "deleted": false
+        },
+        {
+            "id": "75af4736-cfae-4836-90a6-e2984b67f878",
+            "brand": "old monk",
+            "rating": 4.0,
+            "date": "2026-10-02",
+            "category": "Other",
+            "sweetnessDryness": 0.5190880298614502,
+            "richnessLightness": 0.41568124294281006,
+            "fruity": 0,
+            "sweetness": 0,
+            "thumb": "75af4736-cfae-4836-90a6-e2984b67f878_0.jpg",
+            "updatedAt": "2026-10-05T12:36:01Z",
             "deleted": false
         }
     ],
