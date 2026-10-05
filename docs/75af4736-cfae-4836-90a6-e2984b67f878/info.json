@@ -7,8 +7,8 @@
     "richnessLightness": 0.41568124294281006,
     "fruity": 0,
     "sweetness": 0,
-    "place": "",
-    "comment": "",
+    "place": "インドのラム",
+    "comment": "ラムチャイに使うと美味しい\nそのままでも美味しい",
     "category": "Other",
     "subCategory": "その他",
     "origin": "",
@@ -35,7 +35,7 @@
         }
     ],
     "createdAt": "2026-10-01T16:25:43Z",
-    "updatedAt": "2026-10-01T16:25:52Z",
+    "updatedAt": "2026-10-05T12:36:01Z",
     "deleted": false,
     "deletedAt": ""
 }
