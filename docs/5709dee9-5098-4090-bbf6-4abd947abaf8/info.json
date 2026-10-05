@@ -1,0 +1,48 @@
+{
+    "id": "5709dee9-5098-4090-bbf6-4abd947abaf8",
+    "brand": "日本盛 純米大吟醸 生酒 720ml(純米大吟醸酒) 日本盛 返品種別B",
+    "rating": 4.0,
+    "date": "2026-10-05",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 720,
+    "images": [
+        "5709dee9-5098-4090-bbf6-4abd947abaf8_0.jpg",
+        "5709dee9-5098-4090-bbf6-4abd947abaf8_1.jpg",
+        "5709dee9-5098-4090-bbf6-4abd947abaf8_2.jpg",
+        "5709dee9-5098-4090-bbf6-4abd947abaf8_3.jpg"
+    ],
+    "janCode": "4904070063681",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1370,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pukwo.euhkmbcc.g00pukwo.euhkn048/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4904070063681-75-30002629-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14261912%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0317/4904070063681.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1370,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjoshin%2F4904070063681-75-30002629.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4904070063681-75-30002629"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4904070063681&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-05T04:09:21Z",
+    "updatedAt": "2026-10-05T04:09:21Z",
+    "deleted": false,
+    "deletedAt": ""
+}
