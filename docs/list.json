@@ -280,6 +280,34 @@
             "thumb": "75af4736-cfae-4836-90a6-e2984b67f878_0.jpg",
             "updatedAt": "2026-10-05T12:36:01Z",
             "deleted": false
+        },
+        {
+            "id": "b222a157-552f-48b1-9fd7-7fa4091cf80d",
+            "brand": "小山本家酒造 金紋朝日しぼってそのまま低温貯蔵",
+            "rating": 3.0,
+            "date": "2026-10-10",
+            "category": "Sake",
+            "sweetnessDryness": 0.5169556140899658,
+            "richnessLightness": 0.4534868001937866,
+            "fruity": 0,
+            "sweetness": 0,
+            "thumb": "b222a157-552f-48b1-9fd7-7fa4091cf80d_0.jpg",
+            "updatedAt": "2026-10-10T09:03:12Z",
+            "deleted": false
+        },
+        {
+            "id": "df32644b-f6c0-4ce8-8806-69b9ba6862f3",
+            "brand": "蓬莱 SAKEday Night Fever",
+            "rating": 3.5,
+            "date": "2026-10-10",
+            "category": "Sake",
+            "sweetnessDryness": 0.24931395053863525,
+            "richnessLightness": 0.14467501640319824,
+            "fruity": 0,
+            "sweetness": 3,
+            "thumb": "df32644b-f6c0-4ce8-8806-69b9ba6862f3_0.jpg",
+            "updatedAt": "2026-10-10T09:07:53Z",
+            "deleted": false
         }
     ],
     "purged": [
