@@ -301,12 +301,12 @@
             "rating": 3.5,
             "date": "2026-10-10",
             "category": "Sake",
-            "sweetnessDryness": 0.24931395053863525,
-            "richnessLightness": 0.14467501640319824,
-            "fruity": 0,
-            "sweetness": 3,
+            "sweetnessDryness": 0.25,
+            "richnessLightness": 0.1,
+            "fruity": 5,
+            "sweetness": 2,
             "thumb": "df32644b-f6c0-4ce8-8806-69b9ba6862f3_0.jpg",
-            "updatedAt": "2026-10-10T09:07:53Z",
+            "updatedAt": "2026-10-10T23:11:31Z",
             "deleted": false
         }
     ],
