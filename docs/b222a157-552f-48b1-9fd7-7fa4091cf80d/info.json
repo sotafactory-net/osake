@@ -1,7 +1,7 @@
 {
     "id": "b222a157-552f-48b1-9fd7-7fa4091cf80d",
     "brand": "小山本家酒造 金紋朝日しぼってそのまま低温貯蔵",
-    "rating": 3.0,
+    "rating": 4.0,
     "date": "2026-10-10",
     "sweetnessDryness": 0.5169556140899658,
     "richnessLightness": 0.4534868001937866,
@@ -42,7 +42,7 @@
         }
     ],
     "createdAt": "2026-10-10T09:03:12Z",
-    "updatedAt": "2026-10-10T09:03:12Z",
+    "updatedAt": "2026-10-10T09:55:19Z",
     "deleted": false,
     "deletedAt": ""
 }
