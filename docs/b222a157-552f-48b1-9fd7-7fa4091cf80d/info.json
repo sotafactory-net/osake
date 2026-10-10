@@ -1,0 +1,48 @@
+{
+    "id": "b222a157-552f-48b1-9fd7-7fa4091cf80d",
+    "brand": "小山本家酒造 金紋朝日しぼってそのまま低温貯蔵",
+    "rating": 3.0,
+    "date": "2026-10-10",
+    "sweetnessDryness": 0.5169556140899658,
+    "richnessLightness": 0.4534868001937866,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "ねっとり甘口",
+    "category": "Sake",
+    "subCategory": "吟醸",
+    "origin": "埼玉",
+    "alcoholPercent": 19.0,
+    "volumeMl": 720,
+    "images": [
+        "b222a157-552f-48b1-9fd7-7fa4091cf80d_0.jpg",
+        "b222a157-552f-48b1-9fd7-7fa4091cf80d_1.jpg",
+        "b222a157-552f-48b1-9fd7-7fa4091cf80d_2.jpg",
+        "b222a157-552f-48b1-9fd7-7fa4091cf80d_3.jpg"
+    ],
+    "janCode": "4971686347740",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 5480,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00umvyo.euhkm638.g00umvyo.euhkna90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzenjin%2F4971686347740-6f%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fzenjin%2Fi%2F10003468%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/zenjin/cabinet/sake/zenjin/4971686347740-6f.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 5280,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fzenjin-shop%2F4971686347740-6f.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/zenjin-shop_4971686347740-6f"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4971686347740&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-10T09:03:12Z",
+    "updatedAt": "2026-10-10T09:03:12Z",
+    "deleted": false,
+    "deletedAt": ""
+}
