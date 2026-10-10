@@ -1,0 +1,48 @@
+{
+    "id": "df32644b-f6c0-4ce8-8806-69b9ba6862f3",
+    "brand": "蓬莱 SAKEday Night Fever",
+    "rating": 3.5,
+    "date": "2026-10-10",
+    "sweetnessDryness": 0.24931395053863525,
+    "richnessLightness": 0.14467501640319824,
+    "fruity": 0,
+    "sweetness": 3,
+    "place": "4321本限定",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 720,
+    "images": [
+        "df32644b-f6c0-4ce8-8806-69b9ba6862f3_0.jpg",
+        "df32644b-f6c0-4ce8-8806-69b9ba6862f3_1.jpg",
+        "df32644b-f6c0-4ce8-8806-69b9ba6862f3_2.jpg",
+        "df32644b-f6c0-4ce8-8806-69b9ba6862f3_3.jpg"
+    ],
+    "janCode": "4941392200530",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1620,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rqoyo.euhkm68d.g00rqoyo.euhknf09/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fchagatapark%2F180900280%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fchagatapark%2Fi%2F10065069%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/chagatapark/cabinet/catalog/202405/180900280.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1620,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fchagatapark%2F180900280.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/chagatapark_180900280"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4941392200530&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-10T09:07:53Z",
+    "updatedAt": "2026-10-10T09:07:53Z",
+    "deleted": false,
+    "deletedAt": ""
+}
