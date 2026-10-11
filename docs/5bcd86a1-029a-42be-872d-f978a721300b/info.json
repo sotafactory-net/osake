@@ -1,0 +1,33 @@
+{
+    "id": "5bcd86a1-029a-42be-872d-f978a721300b",
+    "brand": "澪　mio  洋梨のような香り",
+    "rating": 4.0,
+    "date": "2026-10-12",
+    "sweetnessDryness": 0.3975297212600708,
+    "richnessLightness": -0.28375381231307983,
+    "fruity": 3,
+    "sweetness": 2,
+    "place": "スパークリング",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "その他",
+    "origin": "",
+    "alcoholPercent": 5.0,
+    "volumeMl": 300,
+    "images": [
+        "5bcd86a1-029a-42be-872d-f978a721300b_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e6%be%aa%e3%80%80mio++%e6%b4%8b%e6%a2%a8%e3%81%ae%e3%82%88%e3%81%86%e3%81%aa%e9%a6%99%e3%82%8a&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T21:09:46Z",
+    "updatedAt": "2026-10-11T21:10:22Z",
+    "deleted": false,
+    "deletedAt": ""
+}
