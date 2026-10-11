@@ -2,7 +2,7 @@
     "id": "db61c174-2da1-4e7b-8487-249616cb4e8f",
     "brand": "隠し吟醸",
     "rating": 3.0,
-    "date": "2026-10-11",
+    "date": "2026-07-12",
     "sweetnessDryness": -0.1761401891708374,
     "richnessLightness": -0.03963381052017212,
     "fruity": -1,
@@ -39,7 +39,7 @@
         }
     ],
     "createdAt": "2026-10-11T10:57:54Z",
-    "updatedAt": "2026-10-11T10:57:54Z",
+    "updatedAt": "2026-10-11T11:24:06Z",
     "deleted": false,
     "deletedAt": ""
 }
