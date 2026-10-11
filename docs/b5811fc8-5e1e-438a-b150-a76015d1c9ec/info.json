@@ -1,0 +1,46 @@
+{
+    "id": "b5811fc8-5e1e-438a-b150-a76015d1c9ec",
+    "brand": "月山　特別純米　出雲",
+    "rating": 4.0,
+    "date": "2026-10-11",
+    "sweetnessDryness": 0.5425467491149902,
+    "richnessLightness": -0.22867059707641602,
+    "fruity": 1,
+    "sweetness": 3,
+    "place": "吟醸マグロ",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "特別純米酒",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "b5811fc8-5e1e-438a-b150-a76015d1c9ec_0.jpg",
+        "b5811fc8-5e1e-438a-b150-a76015d1c9ec_1.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 3300,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qr90o.euhkm3e3.g00qr90o.euhkn26e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fb-miyoshi%2Fgassan-izumo1800%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fb-miyoshi%2Fi%2F10001019%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/b-miyoshi/cabinet/gassan/main/imgrc0103358640.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 3750,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsonoma-store%2Fnih-32.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/sonoma-store_nih-32"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e6%9c%88%e5%b1%b1%e3%80%80%e7%89%b9%e5%88%a5%e7%b4%94%e7%b1%b3%e3%80%80%e5%87%ba%e9%9b%b2&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T10:23:42Z",
+    "updatedAt": "2026-10-11T10:23:42Z",
+    "deleted": false,
+    "deletedAt": ""
+}
