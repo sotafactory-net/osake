@@ -1,0 +1,46 @@
+{
+    "id": "d09f2b44-9b4e-4859-baa9-7c312a549a01",
+    "brand": "富翁 純米酒 プルミエアムール 純米",
+    "rating": 4.0,
+    "date": "2026-10-12",
+    "sweetnessDryness": 0.30796051025390625,
+    "richnessLightness": 0.16437017917633057,
+    "fruity": 3,
+    "sweetness": 3,
+    "place": "京都のお酒",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米酒",
+    "origin": "",
+    "alcoholPercent": 13.0,
+    "volumeMl": 720,
+    "images": [
+        "d09f2b44-9b4e-4859-baa9-7c312a549a01_0.jpg",
+        "d09f2b44-9b4e-4859-baa9-7c312a549a01_1.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1859,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00top0o.euhkmce2.g00top0o.euhkn897/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkyoto-sake-2940%2Fkitadawa-premier-720%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkyoto-sake-2940%2Fi%2F10000607%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kyoto-sake-2940/cabinet/07242196/premi-720top.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1859,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkyoto-fukushima%2Fkgh-premium-js-720.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/kyoto-fukushima_kgh-premium-js-720"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e5%af%8c%e7%bf%81+%e7%b4%94%e7%b1%b3%e9%85%92+%e3%83%97%e3%83%ab%e3%83%9f%e3%82%a8%e3%82%a2%e3%83%a0%e3%83%bc%e3%83%ab+%e7%b4%94%e7%b1%b3&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T21:57:17Z",
+    "updatedAt": "2026-10-11T21:57:17Z",
+    "deleted": false,
+    "deletedAt": ""
+}
