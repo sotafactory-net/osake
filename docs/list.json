@@ -532,6 +532,20 @@
             "thumb": "165a81b7-b6af-4e1d-8e11-fd1c6e332d86_0.jpg",
             "updatedAt": "2026-10-11T10:38:16Z",
             "deleted": false
+        },
+        {
+            "id": "c4f4047e-8a8d-44cc-a703-56acea3cd3cb",
+            "brand": "華の舞　春限定",
+            "rating": 3.0,
+            "date": "2026-10-11",
+            "category": "Sake",
+            "sweetnessDryness": 0.3250213861465454,
+            "richnessLightness": 0.10686779022216797,
+            "fruity": 2,
+            "sweetness": 2,
+            "thumb": "c4f4047e-8a8d-44cc-a703-56acea3cd3cb_0.jpg",
+            "updatedAt": "2026-10-11T10:43:03Z",
+            "deleted": false
         }
     ],
     "purged": [
