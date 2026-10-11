@@ -1,0 +1,26 @@
+{
+    "id": "18ce0d62-23ef-4e86-8dbc-dc340c4824b5",
+    "brand": "昴",
+    "rating": 3.0,
+    "date": "2026-10-11",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "18ce0d62-23ef-4e86-8dbc-dc340c4824b5_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-10-11T00:49:46Z",
+    "updatedAt": "2026-10-11T00:49:46Z",
+    "deleted": false,
+    "deletedAt": ""
+}
