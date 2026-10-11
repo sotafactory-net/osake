@@ -1,0 +1,33 @@
+{
+    "id": "658f9553-31a6-4063-80b6-ec8a9906a40a",
+    "brand": "澪　イチゴのような香り",
+    "rating": 3.5,
+    "date": "2026-10-12",
+    "sweetnessDryness": 0.3623417615890503,
+    "richnessLightness": -0.027820348739624023,
+    "fruity": 3,
+    "sweetness": 2,
+    "place": "スバークリング",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "その他",
+    "origin": "",
+    "alcoholPercent": 5.0,
+    "volumeMl": 300,
+    "images": [
+        "658f9553-31a6-4063-80b6-ec8a9906a40a_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e6%be%aa%e3%80%80%e3%82%a4%e3%83%81%e3%82%b4%e3%81%ae%e3%82%88%e3%81%86%e3%81%aa%e9%a6%99%e3%82%8a&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T22:06:27Z",
+    "updatedAt": "2026-10-11T22:06:27Z",
+    "deleted": false,
+    "deletedAt": ""
+}
