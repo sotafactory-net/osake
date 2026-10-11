@@ -1,0 +1,47 @@
+{
+    "id": "529d3372-27f4-4336-9067-ec36c59eec84",
+    "brand": "月の桂 中汲 純米にごり",
+    "rating": 3.5,
+    "date": "2026-10-12",
+    "sweetnessDryness": 0.3111593723297119,
+    "richnessLightness": -0.1963241696357727,
+    "fruity": 1,
+    "sweetness": 2,
+    "place": "京都のお酒",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米酒",
+    "origin": "",
+    "alcoholPercent": 17.0,
+    "volumeMl": 720,
+    "images": [
+        "529d3372-27f4-4336-9067-ec36c59eec84_0.jpg",
+        "529d3372-27f4-4336-9067-ec36c59eec84_1.jpg",
+        "529d3372-27f4-4336-9067-ec36c59eec84_2.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1930,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ryego.euhkmce4.g00ryego.euhknca3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffujimatsuwine%2F12866%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffujimatsuwine%2Fi%2F10039120%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fujimatsuwine/cabinet/syohin4/12866.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1930,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ffujimatsu-store%2F12866.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/fujimatsu-store_12866"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e6%9c%88%e3%81%ae%e6%a1%82+%e4%b8%ad%e6%b1%b2+%e7%b4%94%e7%b1%b3%e3%81%ab%e3%81%94%e3%82%8a&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T21:50:19Z",
+    "updatedAt": "2026-10-11T22:15:36Z",
+    "deleted": false,
+    "deletedAt": ""
+}
