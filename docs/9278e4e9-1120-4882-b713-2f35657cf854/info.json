@@ -1,0 +1,40 @@
+{
+    "id": "9278e4e9-1120-4882-b713-2f35657cf854",
+    "brand": "嘉美心酒造 木陰の魚 瓶",
+    "rating": 4.0,
+    "date": "2026-10-12",
+    "sweetnessDryness": 0.3175572156906128,
+    "richnessLightness": -0.3097464442253113,
+    "fruity": 2,
+    "sweetness": 2,
+    "place": "岡山のお酒",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米酒",
+    "origin": "",
+    "alcoholPercent": 8.0,
+    "volumeMl": 720,
+    "images": [
+        "9278e4e9-1120-4882-b713-2f35657cf854_0.jpg",
+        "9278e4e9-1120-4882-b713-2f35657cf854_1.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Yahoo",
+            "price": 1650,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fchagatapark%2F3248-467537.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/chagatapark_3248-467537"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e5%98%89%e7%be%8e%e5%bf%83%e9%85%92%e9%80%a0+%e6%9c%a8%e9%99%b0%e3%81%ae%e9%ad%9a+%e7%93%b6&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T22:27:19Z",
+    "updatedAt": "2026-10-11T22:28:34Z",
+    "deleted": false,
+    "deletedAt": ""
+}
