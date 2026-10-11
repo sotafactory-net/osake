@@ -3,8 +3,8 @@
     "brand": "日本盛 純米大吟醸 生酒 濃醇 やや甘口",
     "rating": 4.0,
     "date": "2026-10-11",
-    "sweetnessDryness": 0.1640099287033081,
-    "richnessLightness": 0.05149030685424805,
+    "sweetnessDryness": 0.46150779724121094,
+    "richnessLightness": 0.27700042724609375,
     "fruity": 0,
     "sweetness": 2,
     "place": "",
@@ -42,7 +42,7 @@
         }
     ],
     "createdAt": "2026-10-11T00:18:20Z",
-    "updatedAt": "2026-10-11T00:18:20Z",
+    "updatedAt": "2026-10-11T09:36:02Z",
     "deleted": false,
     "deletedAt": ""
 }
