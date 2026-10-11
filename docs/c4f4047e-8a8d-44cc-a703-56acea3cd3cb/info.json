@@ -1,7 +1,7 @@
 {
     "id": "c4f4047e-8a8d-44cc-a703-56acea3cd3cb",
     "brand": "華の舞　春限定",
-    "rating": 3.0,
+    "rating": 3.5,
     "date": "2026-10-11",
     "sweetnessDryness": 0.3250213861465454,
     "richnessLightness": 0.10686779022216797,
@@ -27,7 +27,7 @@
         }
     ],
     "createdAt": "2026-10-11T10:43:03Z",
-    "updatedAt": "2026-10-11T10:43:03Z",
+    "updatedAt": "2026-10-11T10:47:07Z",
     "deleted": false,
     "deletedAt": ""
 }
