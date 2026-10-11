@@ -434,6 +434,62 @@
             "thumb": "32dc7985-53bd-486e-ab25-59916921fff6_0.jpg",
             "updatedAt": "2026-10-11T09:51:01Z",
             "deleted": false
+        },
+        {
+            "id": "b9a8459a-775c-48dc-88ba-d2eed7582a40",
+            "brand": "月桂冠　にごり酒",
+            "rating": 3.0,
+            "date": "2026-10-11",
+            "category": "Sake",
+            "sweetnessDryness": 0.5372153520584106,
+            "richnessLightness": 0.40460455417633057,
+            "fruity": 2,
+            "sweetness": 4,
+            "thumb": "b9a8459a-775c-48dc-88ba-d2eed7582a40_0.jpg",
+            "updatedAt": "2026-10-11T10:14:14Z",
+            "deleted": false
+        },
+        {
+            "id": "d09b5cd4-d810-4853-9c01-c7124098c30b",
+            "brand": "喜八郎　無濾過生原酒",
+            "rating": 3.0,
+            "date": "2026-10-11",
+            "category": "Sake",
+            "sweetnessDryness": 0.447645902633667,
+            "richnessLightness": 0.04942286014556885,
+            "fruity": 0,
+            "sweetness": 2,
+            "thumb": "d09b5cd4-d810-4853-9c01-c7124098c30b_0.jpg",
+            "updatedAt": "2026-10-11T10:18:13Z",
+            "deleted": false
+        },
+        {
+            "id": "b5811fc8-5e1e-438a-b150-a76015d1c9ec",
+            "brand": "月山　特別純米　出雲",
+            "rating": 4.0,
+            "date": "2026-10-11",
+            "category": "Sake",
+            "sweetnessDryness": 0.5425467491149902,
+            "richnessLightness": -0.22867059707641602,
+            "fruity": 1,
+            "sweetness": 3,
+            "thumb": "b5811fc8-5e1e-438a-b150-a76015d1c9ec_0.jpg",
+            "updatedAt": "2026-10-11T10:23:42Z",
+            "deleted": false
+        },
+        {
+            "id": "97f72295-9e6b-42e3-900e-98d178ab15ad",
+            "brand": "ちえびじん　生熟八反",
+            "rating": 3.5,
+            "date": "2026-10-11",
+            "category": "Sake",
+            "sweetnessDryness": 0.0,
+            "richnessLightness": 0.0,
+            "fruity": 0,
+            "sweetness": 0,
+            "thumb": "97f72295-9e6b-42e3-900e-98d178ab15ad_0.jpg",
+            "updatedAt": "2026-10-11T10:26:52Z",
+            "deleted": false
         }
     ],
     "purged": [
