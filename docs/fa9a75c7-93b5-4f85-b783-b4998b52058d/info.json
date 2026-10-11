@@ -1,0 +1,45 @@
+{
+    "id": "fa9a75c7-93b5-4f85-b783-b4998b52058d",
+    "brand": "ice breaker",
+    "rating": 4.0,
+    "date": "2026-10-11",
+    "sweetnessDryness": 0.32288873195648193,
+    "richnessLightness": -0.160145103931427,
+    "fruity": 1,
+    "sweetness": 2,
+    "place": "吟醸マグロ",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "fa9a75c7-93b5-4f85-b783-b4998b52058d_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 3960,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rf3eo.euhkmfcf.g00rf3eo.euhkn157/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmeishu-honpo%2F26008%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmeishu-honpo%2Fi%2F10004618%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/meishu-honpo/cabinet/08/26008_1.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1540,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fimanaka-sakeshop%2F26009.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/imanaka-sakeshop_26009"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=ice+breaker&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T10:35:18Z",
+    "updatedAt": "2026-10-11T10:35:18Z",
+    "deleted": false,
+    "deletedAt": ""
+}
