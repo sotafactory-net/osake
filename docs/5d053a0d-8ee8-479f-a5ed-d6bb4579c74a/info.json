@@ -16,7 +16,8 @@
     "volumeMl": 0,
     "images": [
         "5d053a0d-8ee8-479f-a5ed-d6bb4579c74a_0.jpg",
-        "5d053a0d-8ee8-479f-a5ed-d6bb4579c74a_1.jpg"
+        "5d053a0d-8ee8-479f-a5ed-d6bb4579c74a_1.jpg",
+        "5d053a0d-8ee8-479f-a5ed-d6bb4579c74a_2.jpg"
     ],
     "janCode": "",
     "ecItems": [
@@ -28,7 +29,7 @@
         }
     ],
     "createdAt": "2026-10-11T21:24:21Z",
-    "updatedAt": "2026-10-11T21:24:21Z",
+    "updatedAt": "2026-10-11T22:13:50Z",
     "deleted": false,
     "deletedAt": ""
 }
