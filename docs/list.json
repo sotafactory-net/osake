@@ -536,7 +536,7 @@
         {
             "id": "c4f4047e-8a8d-44cc-a703-56acea3cd3cb",
             "brand": "華の舞　春限定",
-            "rating": 3.0,
+            "rating": 3.5,
             "date": "2026-10-11",
             "category": "Sake",
             "sweetnessDryness": 0.3250213861465454,
@@ -544,7 +544,21 @@
             "fruity": 2,
             "sweetness": 2,
             "thumb": "c4f4047e-8a8d-44cc-a703-56acea3cd3cb_0.jpg",
-            "updatedAt": "2026-10-11T10:43:03Z",
+            "updatedAt": "2026-10-11T10:47:07Z",
+            "deleted": false
+        },
+        {
+            "id": "c2c12f57-9dda-4f09-a9ce-6df5ff252d6a",
+            "brand": "白老梅",
+            "rating": 3.5,
+            "date": "2026-10-11",
+            "category": "Other",
+            "sweetnessDryness": 0.3730047941207886,
+            "richnessLightness": 0.5369248390197754,
+            "fruity": 3,
+            "sweetness": 3,
+            "thumb": "c2c12f57-9dda-4f09-a9ce-6df5ff252d6a_0.jpg",
+            "updatedAt": "2026-10-11T10:50:41Z",
             "deleted": false
         }
     ],
