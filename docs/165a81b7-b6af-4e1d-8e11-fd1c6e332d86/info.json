@@ -1,0 +1,45 @@
+{
+    "id": "165a81b7-b6af-4e1d-8e11-fd1c6e332d86",
+    "brand": "arroz",
+    "rating": 3.0,
+    "date": "2026-10-11",
+    "sweetnessDryness": 0.3932645320892334,
+    "richnessLightness": 0.3006296157836914,
+    "fruity": 2,
+    "sweetness": 3,
+    "place": "川越のお酒",
+    "comment": "スバークリング",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 11.0,
+    "volumeMl": 300,
+    "images": [
+        "165a81b7-b6af-4e1d-8e11-fd1c6e332d86_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1955,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rde1o.euhkm0e6.g00rde1o.euhkn19b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fissyusouden%2F17422733%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fissyusouden%2Fi%2F10016834%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/issyusouden/cabinet/2021_01/2021_02/17422733.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1916,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fisshusouden-2%2F17422733.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/isshusouden-2_17422733"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=arroz&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T10:38:16Z",
+    "updatedAt": "2026-10-11T10:38:16Z",
+    "deleted": false,
+    "deletedAt": ""
+}
