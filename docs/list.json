@@ -264,8 +264,8 @@
             "fruity": 0,
             "sweetness": 0,
             "thumb": "5709dee9-5098-4090-bbf6-4abd947abaf8_0.jpg",
-            "updatedAt": "2026-10-05T04:09:21Z",
-            "deleted": false
+            "updatedAt": "2026-10-11T00:29:21Z",
+            "deleted": true
         },
         {
             "id": "75af4736-cfae-4836-90a6-e2984b67f878",
@@ -335,6 +335,48 @@
             "sweetness": 2,
             "thumb": "df32644b-f6c0-4ce8-8806-69b9ba6862f3_0.jpg",
             "updatedAt": "2026-10-10T23:11:31Z",
+            "deleted": false
+        },
+        {
+            "id": "f776c472-5c2b-4155-8570-5e710c95e7c1",
+            "brand": "鳳麟",
+            "rating": 5.0,
+            "date": "2026-10-11",
+            "category": "Sake",
+            "sweetnessDryness": 0.0,
+            "richnessLightness": 0.0,
+            "fruity": 0,
+            "sweetness": 0,
+            "thumb": "f776c472-5c2b-4155-8570-5e710c95e7c1_0.jpg",
+            "updatedAt": "2026-10-11T00:28:56Z",
+            "deleted": false
+        },
+        {
+            "id": "b1a470dd-ff82-47c9-90c0-8ece8f437a70",
+            "brand": "川越のおさけ",
+            "rating": 2.5,
+            "date": "2026-10-11",
+            "category": "Sake",
+            "sweetnessDryness": 0.0,
+            "richnessLightness": 0.0,
+            "fruity": -1,
+            "sweetness": -2,
+            "thumb": "b1a470dd-ff82-47c9-90c0-8ece8f437a70_0.jpg",
+            "updatedAt": "2026-10-11T00:48:55Z",
+            "deleted": false
+        },
+        {
+            "id": "18ce0d62-23ef-4e86-8dbc-dc340c4824b5",
+            "brand": "昴",
+            "rating": 3.0,
+            "date": "2026-10-11",
+            "category": "Sake",
+            "sweetnessDryness": 0.0,
+            "richnessLightness": 0.0,
+            "fruity": 0,
+            "sweetness": 0,
+            "thumb": "18ce0d62-23ef-4e86-8dbc-dc340c4824b5_0.jpg",
+            "updatedAt": "2026-10-11T00:49:46Z",
             "deleted": false
         }
     ],
