@@ -1,0 +1,47 @@
+{
+    "id": "3605c60d-1821-4649-b672-0bf470dd8576",
+    "brand": "越の寒中梅 秋あがり 純米吟醸 原酒 720ml 新潟銘醸 日本酒 ひやおろし",
+    "rating": 3.5,
+    "date": "2026-10-10",
+    "sweetnessDryness": -0.15161526203155518,
+    "richnessLightness": 0.26991140842437744,
+    "fruity": 1,
+    "sweetness": -1,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米吟醸",
+    "origin": "",
+    "alcoholPercent": 17.0,
+    "volumeMl": 720,
+    "images": [
+        "3605c60d-1821-4649-b672-0bf470dd8576_0.jpg",
+        "3605c60d-1821-4649-b672-0bf470dd8576_1.jpg",
+        "3605c60d-1821-4649-b672-0bf470dd8576_2.jpg"
+    ],
+    "janCode": "4965647450600",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1573,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00paqio.euhkme92.g00paqio.euhkn1c7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fechigo%2F10011704%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fechigo%2Fi%2F10011704%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/echigo/cabinet/00209481/kancyubai-aki2.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1573,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fechigo%2F112503.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/echigo_112503"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4965647450600&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-10T11:03:32Z",
+    "updatedAt": "2026-10-10T11:06:37Z",
+    "deleted": false,
+    "deletedAt": ""
+}
