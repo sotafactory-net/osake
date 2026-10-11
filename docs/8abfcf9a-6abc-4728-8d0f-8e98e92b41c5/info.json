@@ -1,0 +1,36 @@
+{
+    "id": "8abfcf9a-6abc-4728-8d0f-8e98e92b41c5",
+    "brand": "VALDOBBIADENE",
+    "rating": 3.5,
+    "date": "2026-10-11",
+    "sweetnessDryness": -0.15588051080703735,
+    "richnessLightness": 0.20301353931427002,
+    "fruity": -1,
+    "sweetness": -1,
+    "place": "白のスバークリング",
+    "comment": "",
+    "category": "Wine",
+    "subCategory": "スパークリング",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "8abfcf9a-6abc-4728-8d0f-8e98e92b41c5_0.jpg",
+        "8abfcf9a-6abc-4728-8d0f-8e98e92b41c5_1.jpg",
+        "8abfcf9a-6abc-4728-8d0f-8e98e92b41c5_2.jpg",
+        "8abfcf9a-6abc-4728-8d0f-8e98e92b41c5_3.jpg"
+    ],
+    "janCode": "4901880894740",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4901880894740&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T09:42:01Z",
+    "updatedAt": "2026-10-11T09:42:19Z",
+    "deleted": false,
+    "deletedAt": ""
+}
