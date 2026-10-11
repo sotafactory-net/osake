@@ -1,0 +1,45 @@
+{
+    "id": "bd50579f-d50a-4bde-8f39-912466091e5a",
+    "brand": "天賦 純米　300",
+    "rating": 3.0,
+    "date": "2026-10-12",
+    "sweetnessDryness": 0.2407834529876709,
+    "richnessLightness": -0.17432308197021484,
+    "fruity": 0,
+    "sweetness": 2,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米吟醸",
+    "origin": "",
+    "alcoholPercent": 15.0,
+    "volumeMl": 300,
+    "images": [
+        "bd50579f-d50a-4bde-8f39-912466091e5a_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 814,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rey1o.euhkmf71.g00rey1o.euhkn3f7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmanroku%2F0103nis-ten03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmanroku%2Fi%2F10005138%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/manroku/cabinet/img092/0103nis-ten03_1.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 814,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmanroku-y%2F0103nis-ten03.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/manroku-y_0103nis-ten03"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e5%a4%a9%e8%b3%a6+%e7%b4%94%e7%b1%b3%e3%80%80300&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T21:18:12Z",
+    "updatedAt": "2026-10-11T21:18:12Z",
+    "deleted": false,
+    "deletedAt": ""
+}
