@@ -1,0 +1,45 @@
+{
+    "id": "32dc7985-53bd-486e-ab25-59916921fff6",
+    "brand": "羽根屋　煌火",
+    "rating": 3.0,
+    "date": "2026-10-11",
+    "sweetnessDryness": 0.41885578632354736,
+    "richnessLightness": 0.06592357158660889,
+    "fruity": 3,
+    "sweetness": 1,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米吟醸",
+    "origin": "富山",
+    "alcoholPercent": 16.0,
+    "volumeMl": 720,
+    "images": [
+        "32dc7985-53bd-486e-ab25-59916921fff6_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1998,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qr90o.euhkm3e3.g00qr90o.euhkn26e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fb-miyoshi%2Fhane-kirabi-720%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fb-miyoshi%2Fi%2F10001058%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/b-miyoshi/cabinet/haneya/main/imgrc0102073702.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1997,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkanazawa-saketen%2F193.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/kanazawa-saketen_193"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e7%be%bd%e6%a0%b9%e5%b1%8b%e3%80%80%e7%85%8c%e7%81%ab&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T09:51:01Z",
+    "updatedAt": "2026-10-11T09:51:01Z",
+    "deleted": false,
+    "deletedAt": ""
+}
