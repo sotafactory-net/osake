@@ -1,0 +1,45 @@
+{
+    "id": "90c7fd30-833d-421a-b882-4f9ca0129139",
+    "brand": "久保田　スパークリング",
+    "rating": 4.0,
+    "date": "2026-10-11",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "その他",
+    "origin": "",
+    "alcoholPercent": 12.0,
+    "volumeMl": 500,
+    "images": [
+        "90c7fd30-833d-421a-b882-4f9ca0129139_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1606,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rceuo.euhkm006.g00rceuo.euhknf1e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-kuwahara%2F4000kubota_supakuring720%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-kuwahara%2Fi%2F10001003%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-kuwahara/cabinet/02707551/08661463/supakuring001.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1606,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmimasuya%2Fkubota1906.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/mimasuya_kubota1906"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e4%b9%85%e4%bf%9d%e7%94%b0%e3%80%80%e3%82%b9%e3%83%91%e3%83%bc%e3%82%af%e3%83%aa%e3%83%b3%e3%82%b0&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T09:46:15Z",
+    "updatedAt": "2026-10-11T09:46:15Z",
+    "deleted": false,
+    "deletedAt": ""
+}
