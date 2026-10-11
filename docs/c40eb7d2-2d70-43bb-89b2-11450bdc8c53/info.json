@@ -1,0 +1,40 @@
+{
+    "id": "c40eb7d2-2d70-43bb-89b2-11450bdc8c53",
+    "brand": "モエ・エ・シャンドングラン ヴィンテージ 2009」",
+    "rating": 3.5,
+    "date": "2026-10-12",
+    "sweetnessDryness": -0.3723396062850952,
+    "richnessLightness": 0.24555134773254395,
+    "fruity": 4,
+    "sweetness": -2,
+    "place": "高級なシャンパン",
+    "comment": "",
+    "category": "Wine",
+    "subCategory": "スパークリング",
+    "origin": "",
+    "alcoholPercent": 12.5,
+    "volumeMl": 750,
+    "images": [
+        "c40eb7d2-2d70-43bb-89b2-11450bdc8c53_0.jpg",
+        "c40eb7d2-2d70-43bb-89b2-11450bdc8c53_1.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Yahoo",
+            "price": 22800,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdragee-wine%2Fw-ch20120805.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/dragee-wine_w-ch20120805"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e3%83%a2%e3%82%a8%e3%83%bb%e3%82%a8%e3%83%bb%e3%82%b7%e3%83%a3%e3%83%b3%e3%83%89%e3%83%b3%e3%82%b0%e3%83%a9%e3%83%b3+%e3%83%b4%e3%82%a3%e3%83%b3%e3%83%86%e3%83%bc%e3%82%b8+2009%e3%80%8d&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T22:04:26Z",
+    "updatedAt": "2026-10-11T22:04:26Z",
+    "deleted": false,
+    "deletedAt": ""
+}
