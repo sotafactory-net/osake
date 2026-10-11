@@ -1,0 +1,45 @@
+{
+    "id": "642ad910-febd-4594-98b4-c08d6e8c930e",
+    "brand": "純米酒 薩州正宗 300ml 15度",
+    "rating": 3.0,
+    "date": "2026-10-12",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 3,
+    "sweetness": 1,
+    "place": "鹿児島のお酒",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米酒",
+    "origin": "",
+    "alcoholPercent": 15.0,
+    "volumeMl": 300,
+    "images": [
+        "642ad910-febd-4594-98b4-c08d6e8c930e_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 800,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pw0ro.euhkmc21.g00pw0ro.euhknf1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkinko%2F212589%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkinko%2Fi%2F10031402%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kinko/cabinet/89/212589_1.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 639,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbaba%2Fksc114.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/baba_ksc114"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e7%b4%94%e7%b1%b3%e9%85%92+%e8%96%a9%e5%b7%9e%e6%ad%a3%e5%ae%97+300ml+15%e5%ba%a6&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T21:27:58Z",
+    "updatedAt": "2026-10-11T21:27:58Z",
+    "deleted": false,
+    "deletedAt": ""
+}
