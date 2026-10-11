@@ -1,0 +1,45 @@
+{
+    "id": "db61c174-2da1-4e7b-8487-249616cb4e8f",
+    "brand": "隠し吟醸",
+    "rating": 3.0,
+    "date": "2026-10-11",
+    "sweetnessDryness": -0.1761401891708374,
+    "richnessLightness": -0.03963381052017212,
+    "fruity": -1,
+    "sweetness": -2,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "吟醸",
+    "origin": "",
+    "alcoholPercent": 15.0,
+    "volumeMl": 300,
+    "images": [
+        "db61c174-2da1-4e7b-8487-249616cb4e8f_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 8691,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rde1o.euhkm0e6.g00rde1o.euhkn19b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fissyusouden%2F19325301-24%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fissyusouden%2Fi%2F10014391%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/issyusouden/cabinet/2021_01/19325301-24.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 8772,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fumaimon-oumi%2F12893270-24.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/umaimon-oumi_12893270-24"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e9%9a%a0%e3%81%97%e5%90%9f%e9%86%b8&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T10:57:54Z",
+    "updatedAt": "2026-10-11T10:57:54Z",
+    "deleted": false,
+    "deletedAt": ""
+}
