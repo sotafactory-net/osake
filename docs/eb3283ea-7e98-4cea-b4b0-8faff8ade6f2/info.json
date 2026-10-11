@@ -1,0 +1,37 @@
+{
+    "id": "eb3283ea-7e98-4cea-b4b0-8faff8ade6f2",
+    "brand": "澪 MIO　ゴールド　スパークリング",
+    "rating": 3.5,
+    "date": "2026-10-12",
+    "sweetnessDryness": 0.3506125211715698,
+    "richnessLightness": 0.16121530532836914,
+    "fruity": 2,
+    "sweetness": 3,
+    "place": "金箔入",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "その他",
+    "origin": "",
+    "alcoholPercent": 5.0,
+    "volumeMl": 300,
+    "images": [
+        "eb3283ea-7e98-4cea-b4b0-8faff8ade6f2_0.jpg",
+        "eb3283ea-7e98-4cea-b4b0-8faff8ade6f2_1.jpg",
+        "eb3283ea-7e98-4cea-b4b0-8faff8ade6f2_2.jpg",
+        "eb3283ea-7e98-4cea-b4b0-8faff8ade6f2_3.jpg",
+        "eb3283ea-7e98-4cea-b4b0-8faff8ade6f2_4.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e6%be%aa+MIO%e3%80%80%e3%82%b4%e3%83%bc%e3%83%ab%e3%83%89%e3%80%80%e3%82%b9%e3%83%91%e3%83%bc%e3%82%af%e3%83%aa%e3%83%b3%e3%82%b0&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T22:11:45Z",
+    "updatedAt": "2026-10-11T22:11:45Z",
+    "deleted": false,
+    "deletedAt": ""
+}
