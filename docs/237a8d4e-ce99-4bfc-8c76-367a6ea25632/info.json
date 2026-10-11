@@ -1,0 +1,33 @@
+{
+    "id": "237a8d4e-ce99-4bfc-8c76-367a6ea25632",
+    "brand": "萩之露　純米吟醸",
+    "rating": 3.0,
+    "date": "2026-10-11",
+    "sweetnessDryness": -0.16760975122451782,
+    "richnessLightness": 0.03516185283660889,
+    "fruity": -1,
+    "sweetness": 1,
+    "place": "吟醸マグロ",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米吟醸",
+    "origin": "",
+    "alcoholPercent": 15.0,
+    "volumeMl": 0,
+    "images": [
+        "237a8d4e-ce99-4bfc-8c76-367a6ea25632_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e8%90%a9%e4%b9%8b%e9%9c%b2%e3%80%80%e7%b4%94%e7%b1%b3%e5%90%9f%e9%86%b8&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T10:32:17Z",
+    "updatedAt": "2026-10-11T10:32:17Z",
+    "deleted": false,
+    "deletedAt": ""
+}
