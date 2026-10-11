@@ -560,6 +560,20 @@
             "thumb": "c2c12f57-9dda-4f09-a9ce-6df5ff252d6a_0.jpg",
             "updatedAt": "2026-10-11T10:50:41Z",
             "deleted": false
+        },
+        {
+            "id": "db61c174-2da1-4e7b-8487-249616cb4e8f",
+            "brand": "隠し吟醸",
+            "rating": 3.0,
+            "date": "2026-10-11",
+            "category": "Sake",
+            "sweetnessDryness": -0.1761401891708374,
+            "richnessLightness": -0.03963381052017212,
+            "fruity": -1,
+            "sweetness": -2,
+            "thumb": "db61c174-2da1-4e7b-8487-249616cb4e8f_0.jpg",
+            "updatedAt": "2026-10-11T10:57:54Z",
+            "deleted": false
         }
     ],
     "purged": [
