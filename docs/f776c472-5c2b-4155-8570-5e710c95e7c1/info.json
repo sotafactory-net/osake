@@ -1,0 +1,26 @@
+{
+    "id": "f776c472-5c2b-4155-8570-5e710c95e7c1",
+    "brand": "鳳麟",
+    "rating": 5.0,
+    "date": "2026-10-11",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "f776c472-5c2b-4155-8570-5e710c95e7c1_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [],
+    "createdAt": "2026-10-11T00:28:56Z",
+    "updatedAt": "2026-10-11T00:28:56Z",
+    "deleted": false,
+    "deletedAt": ""
+}
