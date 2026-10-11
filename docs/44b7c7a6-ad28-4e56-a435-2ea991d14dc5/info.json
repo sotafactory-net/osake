@@ -1,0 +1,33 @@
+{
+    "id": "44b7c7a6-ad28-4e56-a435-2ea991d14dc5",
+    "brand": "勲碧　純米はつしぼり",
+    "rating": 3.5,
+    "date": "2026-10-12",
+    "sweetnessDryness": 0.29516494274139404,
+    "richnessLightness": -0.28375381231307983,
+    "fruity": 0,
+    "sweetness": 1,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米吟醸",
+    "origin": "",
+    "alcoholPercent": 17.0,
+    "volumeMl": 720,
+    "images": [
+        "44b7c7a6-ad28-4e56-a435-2ea991d14dc5_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e5%8b%b2%e7%a2%a7%e3%80%80%e7%b4%94%e7%b1%b3%e3%81%af%e3%81%a4%e3%81%97%e3%81%bc%e3%82%8a&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T21:13:32Z",
+    "updatedAt": "2026-10-11T21:13:32Z",
+    "deleted": false,
+    "deletedAt": ""
+}
