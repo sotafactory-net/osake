@@ -1,0 +1,45 @@
+{
+    "id": "c2c12f57-9dda-4f09-a9ce-6df5ff252d6a",
+    "brand": "白老梅",
+    "rating": 3.5,
+    "date": "2026-10-11",
+    "sweetnessDryness": 0.3730047941207886,
+    "richnessLightness": 0.5369248390197754,
+    "fruity": 3,
+    "sweetness": 3,
+    "place": "知多の梅酒",
+    "comment": "",
+    "category": "Other",
+    "subCategory": "その他",
+    "origin": "",
+    "alcoholPercent": 10.0,
+    "volumeMl": 500,
+    "images": [
+        "c2c12f57-9dda-4f09-a9ce-6df5ff252d6a_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 2200,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pytqo.euhkmc08.g00pytqo.euhkn551/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fumeshu%2Fedo-hakuroubai0500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fumeshu%2Fi%2F10000756%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/umeshu/cabinet/t_rpg/1243/1012-01_thumb01.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 2201,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkurastyle%2F27032001.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/kurastyle_27032001"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e7%99%bd%e8%80%81%e6%a2%85&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T10:50:27Z",
+    "updatedAt": "2026-10-11T10:50:41Z",
+    "deleted": false,
+    "deletedAt": ""
+}
