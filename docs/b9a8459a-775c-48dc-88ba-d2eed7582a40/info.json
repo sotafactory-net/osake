@@ -1,0 +1,45 @@
+{
+    "id": "b9a8459a-775c-48dc-88ba-d2eed7582a40",
+    "brand": "月桂冠　にごり酒",
+    "rating": 3.0,
+    "date": "2026-10-11",
+    "sweetnessDryness": 0.5372153520584106,
+    "richnessLightness": 0.40460455417633057,
+    "fruity": 2,
+    "sweetness": 4,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 10.0,
+    "volumeMl": 300,
+    "images": [
+        "b9a8459a-775c-48dc-88ba-d2eed7582a40_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1343,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r136o.euhkmde9.g00r136o.euhkn489/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901030282564%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11134581%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/564/4901030282564.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 438,
+            "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/1597637/",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/rd-lohaco_1597637"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e6%9c%88%e6%a1%82%e5%86%a0%e3%80%80%e3%81%ab%e3%81%94%e3%82%8a%e9%85%92&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-11T10:14:14Z",
+    "updatedAt": "2026-10-11T10:14:14Z",
+    "deleted": false,
+    "deletedAt": ""
+}
