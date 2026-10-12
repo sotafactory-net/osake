@@ -1,13 +1,13 @@
 {
     "id": "d09b5cd4-d810-4853-9c01-c7124098c30b",
     "brand": "喜八郎　無濾過生原酒",
-    "rating": 3.0,
+    "rating": 4.5,
     "date": "2026-10-11",
     "sweetnessDryness": 0.447645902633667,
     "richnessLightness": 0.04942286014556885,
     "fruity": 0,
     "sweetness": 2,
-    "place": "",
+    "place": "川越のお酒",
     "comment": "",
     "category": "Sake",
     "subCategory": "純米吟醸",
@@ -27,7 +27,7 @@
         }
     ],
     "createdAt": "2026-10-11T10:18:13Z",
-    "updatedAt": "2026-10-11T10:18:13Z",
+    "updatedAt": "2026-10-12T06:12:56Z",
     "deleted": false,
     "deletedAt": ""
 }
