@@ -114,20 +114,6 @@
             "deleted": false
         },
         {
-            "id": "0e6ef7fd-23c4-4f73-9b3f-7090294c3e43",
-            "brand": "日本盛",
-            "rating": 4.0,
-            "date": "2026-10-02",
-            "category": "Sake",
-            "sweetnessDryness": 0.5041599273681641,
-            "richnessLightness": 0.1612159013748169,
-            "fruity": 2,
-            "sweetness": 2,
-            "thumb": "0e6ef7fd-23c4-4f73-9b3f-7090294c3e43_0.jpg",
-            "updatedAt": "2026-10-12T06:26:17Z",
-            "deleted": true
-        },
-        {
             "id": "ac3c17db-3455-4b99-ae30-935deac67bc7",
             "brand": "旨くち",
             "rating": 3.0,
@@ -238,34 +224,6 @@
             "thumb": "a2035c1c-2b3f-4d6a-be72-f09c3d46849b_0.jpg",
             "updatedAt": "2026-10-05T03:44:16Z",
             "deleted": false
-        },
-        {
-            "id": "336296bc-5b2b-4a8e-8a26-8343fc5008c9",
-            "brand": "虹水 KOSUI",
-            "rating": 4.5,
-            "date": "2026-10-04",
-            "category": "Sake",
-            "sweetnessDryness": 0.39006567001342773,
-            "richnessLightness": -0.030918359756469727,
-            "fruity": 1,
-            "sweetness": 2,
-            "thumb": "336296bc-5b2b-4a8e-8a26-8343fc5008c9_0.jpg",
-            "updatedAt": "2026-10-12T06:25:46Z",
-            "deleted": true
-        },
-        {
-            "id": "5709dee9-5098-4090-bbf6-4abd947abaf8",
-            "brand": "日本盛 純米大吟醸 生酒 720ml(純米大吟醸酒) 日本盛 返品種別B",
-            "rating": 4.0,
-            "date": "2026-10-05",
-            "category": "Sake",
-            "sweetnessDryness": 0.0,
-            "richnessLightness": 0.0,
-            "fruity": 0,
-            "sweetness": 0,
-            "thumb": "5709dee9-5098-4090-bbf6-4abd947abaf8_0.jpg",
-            "updatedAt": "2026-10-11T00:29:21Z",
-            "deleted": true
         },
         {
             "id": "75af4736-cfae-4836-90a6-e2984b67f878",
@@ -827,7 +785,10 @@
         "4a56a5b1-7698-46e2-aa0b-d0d9dc17f18a",
         "42c0e954-e29a-49db-9b42-2a69f52d8fd6",
         "c781bed5-e3ae-4efc-8cda-d8f9be3259ff",
-        "8ced398e-5559-4455-a870-b0fad546456a"
+        "8ced398e-5559-4455-a870-b0fad546456a",
+        "0e6ef7fd-23c4-4f73-9b3f-7090294c3e43",
+        "336296bc-5b2b-4a8e-8a26-8343fc5008c9",
+        "5709dee9-5098-4090-bbf6-4abd947abaf8"
     ],
     "title": "甘口の日本酒好きのお酒記録"
 }
