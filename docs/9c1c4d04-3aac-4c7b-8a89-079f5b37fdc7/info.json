@@ -1,0 +1,33 @@
+{
+    "id": "9c1c4d04-3aac-4c7b-8a89-079f5b37fdc7",
+    "brand": "大のや　白酒",
+    "rating": 5.0,
+    "date": "2026-10-12",
+    "sweetnessDryness": 0.7366135120391846,
+    "richnessLightness": 0.40386438369750977,
+    "fruity": 3,
+    "sweetness": 5,
+    "place": "高山のお酒",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "その他",
+    "origin": "",
+    "alcoholPercent": 7.0,
+    "volumeMl": 730,
+    "images": [
+        "9c1c4d04-3aac-4c7b-8a89-079f5b37fdc7_0.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e5%a4%a7%e3%81%ae%e3%82%84%e3%80%80%e7%99%bd%e9%85%92&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-12T00:05:37Z",
+    "updatedAt": "2026-10-12T00:05:37Z",
+    "deleted": false,
+    "deletedAt": ""
+}
