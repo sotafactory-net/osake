@@ -1,7 +1,7 @@
 {
     "id": "336296bc-5b2b-4a8e-8a26-8343fc5008c9",
     "brand": "虹水 KOSUI",
-    "rating": 4.0,
+    "rating": 4.5,
     "date": "2026-10-04",
     "sweetnessDryness": 0.39006567001342773,
     "richnessLightness": -0.030918359756469727,
@@ -41,7 +41,7 @@
         }
     ],
     "createdAt": "2026-10-04T10:53:44Z",
-    "updatedAt": "2026-10-05T03:43:22Z",
+    "updatedAt": "2026-10-12T06:16:51Z",
     "deleted": false,
     "deletedAt": ""
 }
