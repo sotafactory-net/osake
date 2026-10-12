@@ -674,20 +674,6 @@
             "deleted": false
         },
         {
-            "id": "c40eb7d2-2d70-43bb-89b2-11450bdc8c53",
-            "brand": "モエ・エ・シャンドングラン ヴィンテージ 2009",
-            "rating": 3.5,
-            "date": "2026-10-12",
-            "category": "Wine",
-            "sweetnessDryness": -0.3723396062850952,
-            "richnessLightness": 0.24555134773254395,
-            "fruity": 4,
-            "sweetness": -2,
-            "thumb": "c40eb7d2-2d70-43bb-89b2-11450bdc8c53_0.jpg",
-            "updatedAt": "2026-10-11T23:13:35Z",
-            "deleted": false
-        },
-        {
             "id": "658f9553-31a6-4063-80b6-ec8a9906a40a",
             "brand": "澪　イチゴのような香り",
             "rating": 3.5,
@@ -755,6 +741,48 @@
             "sweetness": 2,
             "thumb": "9278e4e9-1120-4882-b713-2f35657cf854_0.jpg",
             "updatedAt": "2026-10-11T22:28:34Z",
+            "deleted": false
+        },
+        {
+            "id": "9c1c4d04-3aac-4c7b-8a89-079f5b37fdc7",
+            "brand": "大のや　白酒",
+            "rating": 5.0,
+            "date": "2026-10-12",
+            "category": "Sake",
+            "sweetnessDryness": 0.7366135120391846,
+            "richnessLightness": 0.40386438369750977,
+            "fruity": 3,
+            "sweetness": 5,
+            "thumb": "9c1c4d04-3aac-4c7b-8a89-079f5b37fdc7_0.jpg",
+            "updatedAt": "2026-10-12T00:05:37Z",
+            "deleted": false
+        },
+        {
+            "id": "1a03d5cb-2e5d-4d60-bc63-1178e0d0ee72",
+            "brand": "帝松　PREMIUM 純米吟醸生原酒",
+            "rating": 4.0,
+            "date": "2026-10-12",
+            "category": "Sake",
+            "sweetnessDryness": 0.15334689617156982,
+            "richnessLightness": 0.1746586561203003,
+            "fruity": 2,
+            "sweetness": 2,
+            "thumb": "1a03d5cb-2e5d-4d60-bc63-1178e0d0ee72_0.jpg",
+            "updatedAt": "2026-10-12T00:12:43Z",
+            "deleted": false
+        },
+        {
+            "id": "c40eb7d2-2d70-43bb-89b2-11450bdc8c53",
+            "brand": "モエ・エ・シャンドングラン ヴィンテージ 2009",
+            "rating": 3.5,
+            "date": "2026-10-12",
+            "category": "Wine",
+            "sweetnessDryness": -0.3723396062850952,
+            "richnessLightness": 0.24555134773254395,
+            "fruity": 4,
+            "sweetness": -2,
+            "thumb": "c40eb7d2-2d70-43bb-89b2-11450bdc8c53_0.jpg",
+            "updatedAt": "2026-10-11T23:13:35Z",
             "deleted": false
         }
     ],
