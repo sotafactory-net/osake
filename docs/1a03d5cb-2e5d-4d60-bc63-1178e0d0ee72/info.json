@@ -1,0 +1,48 @@
+{
+    "id": "1a03d5cb-2e5d-4d60-bc63-1178e0d0ee72",
+    "brand": "帝松　PREMIUM 純米吟醸生原酒",
+    "rating": 4.0,
+    "date": "2026-10-12",
+    "sweetnessDryness": 0.15334689617156982,
+    "richnessLightness": 0.1746586561203003,
+    "fruity": 2,
+    "sweetness": 2,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米吟醸",
+    "origin": "",
+    "alcoholPercent": 18.0,
+    "volumeMl": 720,
+    "images": [
+        "1a03d5cb-2e5d-4d60-bc63-1178e0d0ee72_0.jpg",
+        "1a03d5cb-2e5d-4d60-bc63-1178e0d0ee72_1.jpg",
+        "1a03d5cb-2e5d-4d60-bc63-1178e0d0ee72_2.jpg",
+        "1a03d5cb-2e5d-4d60-bc63-1178e0d0ee72_3.jpg"
+    ],
+    "janCode": "",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 12000,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sjamo.euhkmab2.g00sjamo.euhkn6ed/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ff113433-ogawa%2F382%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ff113433-ogawa%2Fi%2F10000308%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f113433-ogawa/cabinet/2025/382.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 12000,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ffurunavi%2F1550441.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/furunavi_1550441"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=%e5%b8%9d%e6%9d%be%e3%80%80PREMIUM+%e7%b4%94%e7%b1%b3%e5%90%9f%e9%86%b8%e7%94%9f%e5%8e%9f%e9%85%92&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-12T00:12:43Z",
+    "updatedAt": "2026-10-12T00:12:43Z",
+    "deleted": false,
+    "deletedAt": ""
+}
