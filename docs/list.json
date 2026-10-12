@@ -124,8 +124,8 @@
             "fruity": 2,
             "sweetness": 2,
             "thumb": "0e6ef7fd-23c4-4f73-9b3f-7090294c3e43_0.jpg",
-            "updatedAt": "2026-10-04T08:21:16Z",
-            "deleted": false
+            "updatedAt": "2026-10-12T06:26:17Z",
+            "deleted": true
         },
         {
             "id": "ac3c17db-3455-4b99-ae30-935deac67bc7",
@@ -250,8 +250,8 @@
             "fruity": 1,
             "sweetness": 2,
             "thumb": "336296bc-5b2b-4a8e-8a26-8343fc5008c9_0.jpg",
-            "updatedAt": "2026-10-12T06:16:51Z",
-            "deleted": false
+            "updatedAt": "2026-10-12T06:25:46Z",
+            "deleted": true
         },
         {
             "id": "5709dee9-5098-4090-bbf6-4abd947abaf8",
