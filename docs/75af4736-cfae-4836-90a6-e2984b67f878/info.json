@@ -1,7 +1,7 @@
 {
     "id": "75af4736-cfae-4836-90a6-e2984b67f878",
     "brand": "old monk",
-    "rating": 4.0,
+    "rating": 4.5,
     "date": "2026-10-02",
     "sweetnessDryness": 0.5190880298614502,
     "richnessLightness": 0.41568124294281006,
@@ -35,7 +35,7 @@
         }
     ],
     "createdAt": "2026-10-01T16:25:43Z",
-    "updatedAt": "2026-10-05T12:36:01Z",
+    "updatedAt": "2026-10-14T15:08:40Z",
     "deleted": false,
     "deletedAt": ""
 }
