@@ -4,7 +4,7 @@
     "rating": 3.5,
     "date": "2026-10-10",
     "sweetnessDryness": 0.25,
-    "richnessLightness": 0.1,
+    "richnessLightness": 0.10000000149011612,
     "fruity": 5,
     "sweetness": 2,
     "place": "4321本限定",
@@ -17,8 +17,7 @@
     "images": [
         "df32644b-f6c0-4ce8-8806-69b9ba6862f3_0.jpg",
         "df32644b-f6c0-4ce8-8806-69b9ba6862f3_1.jpg",
-        "df32644b-f6c0-4ce8-8806-69b9ba6862f3_2.jpg",
-        "df32644b-f6c0-4ce8-8806-69b9ba6862f3_3.jpg"
+        "df32644b-f6c0-4ce8-8806-69b9ba6862f3_2.jpg"
     ],
     "janCode": "4941392200530",
     "ecItems": [
@@ -42,7 +41,7 @@
         }
     ],
     "createdAt": "2026-10-10T09:07:53Z",
-    "updatedAt": "2026-10-10T23:11:31Z",
+    "updatedAt": "2026-10-14T14:52:26Z",
     "deleted": false,
     "deletedAt": ""
 }
