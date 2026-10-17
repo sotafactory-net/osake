@@ -1,0 +1,47 @@
+{
+    "id": "af926d9c-05d4-4926-a152-22ca4dc43f6f",
+    "brand": "浦霞 純米酒 720ml 瓶 1本　佐浦　宮城県　日本酒",
+    "rating": 3.0,
+    "date": "2026-10-17",
+    "sweetnessDryness": -0.21026182174682617,
+    "richnessLightness": -0.07035320997238159,
+    "fruity": -1,
+    "sweetness": -2,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米酒",
+    "origin": "",
+    "alcoholPercent": 15.0,
+    "volumeMl": 720,
+    "images": [
+        "af926d9c-05d4-4926-a152-22ca4dc43f6f_0.jpg",
+        "af926d9c-05d4-4926-a152-22ca4dc43f6f_1.jpg",
+        "af926d9c-05d4-4926-a152-22ca4dc43f6f_2.jpg"
+    ],
+    "janCode": "4900516240142",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1518,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q4h0o.euhkma98.g00q4h0o.euhkn77a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fichiishop%2F8146021%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fichiishop%2Fi%2F10014847%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ichiishop/cabinet/21/8146021_1.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1530,
+            "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/rp70646/",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/rd-lohaco_rp70646"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4900516240142&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-10-17T10:27:35Z",
+    "updatedAt": "2026-10-17T10:27:35Z",
+    "deleted": false,
+    "deletedAt": ""
+}
