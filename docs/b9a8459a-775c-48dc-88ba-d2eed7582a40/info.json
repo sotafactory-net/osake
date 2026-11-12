@@ -21,15 +21,15 @@
     "ecItems": [
         {
             "provider": "Rakuten",
-            "price": 1343,
-            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r136o.euhkmde9.g00r136o.euhkn489/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901030282564%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11134581%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
-            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/564/4901030282564.jpg?_ex=128x128"
+            "price": 6738,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rthyo.euhkm325.g00rthyo.euhkn9be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fumaimon-oumi%2F12027560-06%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fumaimon-oumi%2Fi%2F10022227%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/umaimon-oumi/cabinet/09111921/imgrc0095044180.jpg?_ex=128x128"
         },
         {
             "provider": "Yahoo",
-            "price": 438,
-            "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/1597637/",
-            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/rd-lohaco_1597637"
+            "price": 12576,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fumaimon-oumi%2F12027560-12.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/umaimon-oumi_12027560-12"
         },
         {
             "provider": "Amazon",
@@ -39,7 +39,7 @@
         }
     ],
     "createdAt": "2026-10-11T10:14:14Z",
-    "updatedAt": "2026-10-11T10:14:14Z",
+    "updatedAt": "2026-11-06T13:45:46Z",
     "deleted": false,
     "deletedAt": ""
 }
