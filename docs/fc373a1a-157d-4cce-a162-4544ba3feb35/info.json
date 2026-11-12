@@ -1,0 +1,48 @@
+{
+    "id": "fc373a1a-157d-4cce-a162-4544ba3feb35",
+    "brand": "京姫 純米大吟醸 紫 720ml 1本 京都 京姫酒造 日本酒",
+    "rating": 3.0,
+    "date": "2026-11-12",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 2,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 720,
+    "images": [
+        "fc373a1a-157d-4cce-a162-4544ba3feb35_0.jpg",
+        "fc373a1a-157d-4cce-a162-4544ba3feb35_1.jpg",
+        "fc373a1a-157d-4cce-a162-4544ba3feb35_2.jpg",
+        "fc373a1a-157d-4cce-a162-4544ba3feb35_3.jpg"
+    ],
+    "janCode": "4960689933357",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1150,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pukwo.euhkmbcc.g00pukwo.euhkn048/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4960689933357-75-30002627-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14261091%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0317/4960689933357.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1308,
+            "productUrl": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/ua43163/",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/rd-lohaco_ua43163"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4960689933357&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-11-12T13:13:48Z",
+    "updatedAt": "2026-11-12T13:13:48Z",
+    "deleted": false,
+    "deletedAt": ""
+}
