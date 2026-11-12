@@ -1,0 +1,47 @@
+{
+    "id": "cd60b8e1-931b-48a1-9912-d4868c67ed5e",
+    "brand": "日本酒 吉乃川酒造 特別純米 極上吉乃川 720ml 正規特約店  新潟　ギフト プレゼント(4979656010427)",
+    "rating": 3.0,
+    "date": "2026-11-12",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 720,
+    "images": [
+        "cd60b8e1-931b-48a1-9912-d4868c67ed5e_0.jpg",
+        "cd60b8e1-931b-48a1-9912-d4868c67ed5e_1.jpg",
+        "cd60b8e1-931b-48a1-9912-d4868c67ed5e_2.jpg"
+    ],
+    "janCode": "4979656010427",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1375,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q4h0o.euhkma98.g00q4h0o.euhkn77a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fichiishop%2F10009881%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fichiishop%2Fi%2F10009881%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ichiishop/cabinet/42/8136442_1.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1375,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fichiishop%2F8136442.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/ichiishop_8136442"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4979656010427&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-11-12T13:14:15Z",
+    "updatedAt": "2026-11-12T13:14:15Z",
+    "deleted": false,
+    "deletedAt": ""
+}
