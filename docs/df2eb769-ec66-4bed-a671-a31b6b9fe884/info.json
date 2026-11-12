@@ -1,0 +1,47 @@
+{
+    "id": "df2eb769-ec66-4bed-a671-a31b6b9fe884",
+    "brand": "沢の鶴 特別純米酒 本格甘口山田錦 720ml",
+    "rating": 3.0,
+    "date": "2026-11-12",
+    "sweetnessDryness": 0.43804931640625,
+    "richnessLightness": 0.09032762050628662,
+    "fruity": 1,
+    "sweetness": 3,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "特別純米酒",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 720,
+    "images": [
+        "df2eb769-ec66-4bed-a671-a31b6b9fe884_0.jpg",
+        "df2eb769-ec66-4bed-a671-a31b6b9fe884_1.jpg",
+        "df2eb769-ec66-4bed-a671-a31b6b9fe884_2.jpg"
+    ],
+    "janCode": "4901808037723",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 1186,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rhqho.euhkmedd.g00rhqho.euhkn4a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsawanotsuru-junmai%2F10000239%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsawanotsuru-junmai%2Fi%2F10000239%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sawanotsuru-junmai/cabinet/images/12597011/imgrc0138064009.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 1196,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faprice%2F4901808037723.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/aprice_4901808037723"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4901808037723&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-11-12T13:12:57Z",
+    "updatedAt": "2026-11-12T13:13:13Z",
+    "deleted": false,
+    "deletedAt": ""
+}
