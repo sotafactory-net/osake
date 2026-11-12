@@ -1,0 +1,35 @@
+{
+    "id": "1b5494bf-102d-4abb-b76b-104a059f96ce",
+    "brand": "かたの桜",
+    "rating": 3.0,
+    "date": "2026-11-12",
+    "sweetnessDryness": 0.0,
+    "richnessLightness": 0.0,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米大吟醸",
+    "origin": "",
+    "alcoholPercent": 0.0,
+    "volumeMl": 0,
+    "images": [
+        "1b5494bf-102d-4abb-b76b-104a059f96ce_0.jpg",
+        "1b5494bf-102d-4abb-b76b-104a059f96ce_1.jpg",
+        "1b5494bf-102d-4abb-b76b-104a059f96ce_2.jpg"
+    ],
+    "janCode": "4995190125212",
+    "ecItems": [
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4995190125212&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-11-12T13:23:57Z",
+    "updatedAt": "2026-11-12T13:23:57Z",
+    "deleted": false,
+    "deletedAt": ""
+}
