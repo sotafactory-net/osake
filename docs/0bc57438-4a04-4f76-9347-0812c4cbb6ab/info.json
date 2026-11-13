@@ -1,0 +1,47 @@
+{
+    "id": "0bc57438-4a04-4f76-9347-0812c4cbb6ab",
+    "brand": "麒麟山 伝統辛口(伝辛) 原酒 300ml",
+    "rating": 3.0,
+    "date": "2026-11-13",
+    "sweetnessDryness": -0.4629752039909363,
+    "richnessLightness": 0.41331613063812256,
+    "fruity": 0,
+    "sweetness": 0,
+    "place": "",
+    "comment": "",
+    "category": "Sake",
+    "subCategory": "純米吟醸",
+    "origin": "",
+    "alcoholPercent": 21.0,
+    "volumeMl": 300,
+    "images": [
+        "0bc57438-4a04-4f76-9347-0812c4cbb6ab_0.jpg",
+        "0bc57438-4a04-4f76-9347-0812c4cbb6ab_1.jpg",
+        "0bc57438-4a04-4f76-9347-0812c4cbb6ab_2.jpg"
+    ],
+    "janCode": "4920066300080",
+    "ecItems": [
+        {
+            "provider": "Rakuten",
+            "price": 594,
+            "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00quiio.euhkm091.g00quiio.euhknc87/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsake-asanoya%2Fkirinzan-denkara-gensyu-300%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsake-asanoya%2Fi%2F10000671%2F&rafcid=wsc_i_is_f3345557-b8cd-4450-b856-3a4f1929fdf0",
+            "iconUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sake-asanoya/cabinet/kirinzan/08091438/denkara-genshu300.jpg?_ex=128x128"
+        },
+        {
+            "provider": "Yahoo",
+            "price": 594,
+            "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3782914&pid=892716091&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsakeasanoya%2Fkirinzan-denkara-gensyu-300.html",
+            "iconUrl": "https://item-shopping.c.yimg.jp/i/j/sakeasanoya_kirinzan-denkara-gensyu-300"
+        },
+        {
+            "provider": "Amazon",
+            "price": 0,
+            "productUrl": "https://www.amazon.co.jp/s?k=4920066300080&tag=sotafactory-22",
+            "iconUrl": ""
+        }
+    ],
+    "createdAt": "2026-11-13T14:20:24Z",
+    "updatedAt": "2026-11-13T14:20:24Z",
+    "deleted": false,
+    "deletedAt": ""
+}
